@@ -1,3 +1,9 @@
+# Multi-LLM SDK (unified interface for all LLM providers)
+git+https://github.com/dimitrisna/MultiLLM-SDK.git
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
 # Core dependencies
 anthropic>=0.17.0
 openai>=1.12.0

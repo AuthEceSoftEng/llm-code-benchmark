@@ -1,9 +1,19 @@
-# LLM Programming Evaluation Toolkit
+# 🧪 LLM Code Benchmark
 
-This toolkit provides files for evaluating Large Language Models (LLMs) on programming tasks using structured benchmarks like NewCodeBench, ExtendedEval, and similar datasets.
+A comprehensive toolkit for evaluating Large Language Models (LLMs) on programming tasks using structured benchmarks. Test multiple providers (OpenAI, Claude, Gemini, AWS Bedrock, Grok) with a unified interface.
+---
 
+## ✨ Features
 
-##  Overview
+- 🎯 **Multi-Provider Support** - Test OpenAI, Claude, Gemini, Bedrock, and Grok models
+- 📊 **Comprehensive Benchmarks** - HumanEval, ExtendedEval, and NewCodeBench datasets
+- 🔍 **Automated Evaluation** - Test LLM-generated code against structured test cases
+- 📈 **Difficulty Analysis** - Classify problems by complexity metrics
+- 🧪 **Coverage Analysis** - Assess edge case coverage in test suites
+
+---
+
+## 📋 Overview
 
 This toolkit consists of four main components:
 
@@ -11,8 +21,6 @@ This toolkit consists of four main components:
 2. **Result Evaluation** - Automatically test LLM-generated code against test cases
 3. **Difficulty Analysis** - Classify problems by complexity metrics
 4. **Coverage Analysis** - Assess test case comprehensiveness
-
-##  Files Description
 
 ### Core Scripts
 
@@ -22,122 +30,89 @@ This toolkit consists of four main components:
 - **`DifficultyLevel.py`** - Analyze and classify problem difficulty
 - **`TestCoverage.py`** - Analyze test coverage and edge case handling
 
-## 🔧 Prerequisites
+---
 
-### Python Requirements
+##  Quick Start
 
-```bash
-python >= 3.8
-```
-
-## 🛠️ Installation & Setup
-
-### Step 1: Create Virtual Environment
+### 1. Clone and Install
 
 ```bash
-# Create a Python virtual environment
+git clone https://github.com/AuthEceSoftEng/llm-code-benchmark.git
+cd llm-code-benchmark
+
+# Create virtual environment
 python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Activate the virtual environment
-source venv/bin/activate
-```
-
-### Step 2: Install Dependencies
-
-**Step 1: Install**
-```bash
-pip install -e ".[dev]"
-```
-
-**step 2: Install from requirements.txt**
-```bash
+# Install dependencies (includes Multi-LLM SDK)
 pip install -r requirements.txt
-````
-
-### Step 3: Configure API Keys
-
-#### For OpenAI
-```bash
-export OPENAI_API_KEY="your-openai-key-here"
 ```
 
-#### For Anthropic (Claude)
+> **Note:** This project uses the [Multi-LLM SDK](https://github.com/dimitrisna/MultiLLM-SDK) for unified LLM provider access.
+
+### 2. Configure API Keys
+
+The easiest way is to use a `.env` file:
+
 ```bash
-export ANTHROPIC_API_KEY="your-anthropic-key-here"
+# Copy the example env file
+cp .env.example .env
+
+# Edit .env and add your API keys
+nano .env  # or use your preferred editor
 ```
 
-#### For Google (Gemini)
+Your `.env` file should look like:
 ```bash
-export GOOGLE_API_KEY="your-google-api-key-here"
+OPENAI_API_KEY=sk-...
+GOOGLE_API_KEY=...
+# Add other keys as needed
 ```
 
-#### For xAI (Grok)
-```bash
-export XAI_API_KEY="your-xai-api-key-here"
-```
+The script will **automatically load** these keys when it runs!
 
-#### For AWS Bedrock
-
-**Option 1: Using AWS Configure (Recommended)**
-```bash
-aws configure
-# Enter your AWS Access Key ID
-# Enter your AWS Secret Access Key
-# Enter default region: us-east-1 (or eu-central-1)
-# Enter default output format: json
-```
-
-**Option 2: Using Environment Variables**
-```bash
-export AWS_ACCESS_KEY_ID="your-aws-access-key"
-export AWS_SECRET_ACCESS_KEY="your-aws-secret-key"
-export AWS_REGION="us-east-1"  # or eu-central-1
-```
-
-**Note:** AWS Bedrock availability varies by region. Common regions:
-- `us-east-1` (US East - N. Virginia)
-- `eu-central-1` (Europe - Frankfurt)
-
-**To change AWS region:**
-```bash
-export AWS_REGION="eu-central-1"
-```
-
-##  Usage
-
-### Quick Start
-
-Here's a complete workflow from setup to evaluation:
+### 3. Run Evaluation
 
 ```bash
-# 1. Activate virtual environment
-source venv/bin/activate
-
-# 2. Set up API keys (example with Google)
-export GOOGLE_API_KEY="your-key-here"
-
-# 3. Run model evaluation
+# Configure which models to test in example_usage_multiple_models.py
+# Then run:
 python3 example_usage_multiple_models.py \
     --dataset NewCodeBench.jsonl \
     --field prompt \
     --out results.jsonl
 
-# 4. Evaluate the results
+# Evaluate the results
 python evaluate_results_of_NewCodeBench.py \
     --results results.jsonl \
-    --out evaluation_report.jsonl
+    --out evaluation_report.jsonl \
+    --verbose
 ```
 
-### Running Model Evaluations
+---
 
-Execute multiple LLM models on your benchmark dataset:
+## 📖 Usage
 
-**Basic usage:**
-```bash
-python3 example_usage_multiple_models.py
+### Configuring Models
+
+Edit `example_usage_multiple_models.py` to enable the models you want to test:
+
+```python
+OPENAI_MODELS = [
+    "gpt-5-2025-08-07",
+]
+
+GOOGLE_MODELS = [
+    "gemini-2.5-pro",
+    "gemini-2.0-flash",
+]
+
+BEDROCK_MODELS = [
+    "us.anthropic.claude-sonnet-4-20250514-v1:0",
+]
 ```
 
-**With custom dataset:**
+### Running on Different Datasets
+
 ```bash
 python3 example_usage_multiple_models.py \
     --dataset NewCodeBench.jsonl \
@@ -158,6 +133,7 @@ python evaluate_results_of_NewCodeBench.py \
     --results results.jsonl \
     --out evaluation_report.jsonl \
     --verbose
+```
 
 #### For ExtendedEval.jsonl
 
@@ -246,51 +222,21 @@ python evaluate_results_of_NewCodeBench.py \
 #### Example 2: AWS Bedrock with Region Configuration
 
 ```bash
-# Configure AWS credentials
-aws configure
-# (Enter your credentials when prompted)
-
-# Set region to US East
-export AWS_REGION="us-east-1"
-
-# Run evaluation with Bedrock models
-python3 example_usage_multiple_models.py
-
-# If you need to change region
-export AWS_REGION="eu-central-1"
-python3 example_usage_multiple_models.py
-```
-
 
 ## 🔍 Troubleshooting
 
-### Environment Setup Issues
+### ModuleNotFoundError: multi_llm_sdk
 
-**Issue: Virtual environment not activated**
 ```bash
-# Solution: Activate the virtual environment
-source venv/bin/activate
-
-# Verify activation (should show venv in prompt)
-which python
+# Reinstall dependencies
+pip install -r requirements.txt
 ```
 
-**Issue: AWS credentials not configured**
-```bash
-# Solution 1: Use aws configure
-aws configure
+### API Key Not Found
 
-# Solution 2: Set environment variables
-export AWS_ACCESS_KEY_ID="your-key"
-export AWS_SECRET_ACCESS_KEY="your-secret"
-export AWS_REGION="us-east-1"
+```bash
+# Make sure .env file exists and has your keys
+cp .env.example .env
+# Edit .env with your actual API keys
 ```
 
-**Issue: Wrong AWS region for Bedrock**
-```bash
-# Check current region
-echo $AWS_REGION
-
-# Set correct region
-export AWS_REGION="us-east-1"  # or eu-central-1
-```

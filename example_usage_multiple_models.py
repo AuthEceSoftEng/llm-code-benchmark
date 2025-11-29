@@ -5,14 +5,17 @@ Simple Multiple Models Testing Script (dataset-enabled)
 Tests multiple models from different providers (OpenAI, Claude, AWS Bedrock, Google, xAI Grok)
 either with a single question or with many questions loaded from JSONL datasets.
 
-Environment Variables Required:
-- OPENAI_API_KEY
-- CLAUDE_API_KEY
-- AWS_ACCESS_KEY_ID / AWS_PROFILE
-- AWS_SECRET_ACCESS_KEY (if not using profile)
-- AWS_REGION (optional, defaults to us-east-1)
-- GOOGLE_API_KEY
-- XAI_API_KEY
+Environment Variables:
+You can either:
+1. Create a .env file (copy from .env.example and fill in your keys)
+2. Or export them in your shell:
+   - OPENAI_API_KEY
+   - CLAUDE_API_KEY (or ANTHROPIC_API_KEY)
+   - AWS_ACCESS_KEY_ID / AWS_PROFILE
+   - AWS_SECRET_ACCESS_KEY (if not using profile)
+   - AWS_REGION (optional, defaults to us-east-1)
+   - GOOGLE_API_KEY
+   - XAI_API_KEY
 
 Usage (single question):
     python example_usage_multiple_models.py --question "Explain AI"
@@ -37,6 +40,10 @@ import json
 import argparse
 from datetime import datetime
 from typing import List, Dict, Any, Iterable
+
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()
 
 from multi_llm_sdk import MultiLLM
 from multi_llm_sdk.core.models import LLMConfig, Message
