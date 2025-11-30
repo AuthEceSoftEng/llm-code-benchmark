@@ -61,8 +61,8 @@ OPENAI_MODELS = [
 ]
 
 GOOGLE_MODELS = [
-    # "gemini-2.5-pro",
-    #"gemini-2.5-flash",
+     "gemini-2.5-pro",
+    "gemini-2.5-flash",
     # "gemini-2.0-flash",
     # "gemini-1.5-pro",
     # "gemini-1.5-flash",
@@ -73,16 +73,16 @@ CLAUDE_MODELS = [
 ]
 
 BEDROCK_MODELS = [
-    # "us.anthropic.claude-3-5-haiku-20241022-v1:0",
-    # "us.anthropic.claude-sonnet-4-20250514-v1:0",
+     "us.anthropic.claude-3-5-haiku-20241022-v1:0",
+     "us.anthropic.claude-sonnet-4-20250514-v1:0",
     # "us.anthropic.claude-opus-4-20250514-v1:0",
     # "us.meta.llama3-3-70b-instruct-v1:0",
     # "eu.mistral.pixtral-large-2502-v1:0",
 ]
 
 GROK_MODELS = [
-    #"grok-4",
-     #"grok-code-fast-1",
+    "grok-4",
+     "grok-code-fast-1",
 ]
 
 # ---------------------------

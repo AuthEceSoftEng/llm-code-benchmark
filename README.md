@@ -1,12 +1,11 @@
-# 🧪 LLM Code Benchmark
+# 🧪 A Framework for Evaluating the Programming Proficiency of Large Language Models
 
 A comprehensive toolkit for evaluating Large Language Models (LLMs) on programming tasks using structured benchmarks. Test multiple providers (OpenAI, Claude, Gemini, AWS Bedrock, Grok) with a unified interface.
----
 
 ## ✨ Features
 
 - 🎯 **Multi-Provider Support** - Test OpenAI, Claude, Gemini, Bedrock, and Grok models
-- 📊 **Comprehensive Benchmarks** - HumanEval, ExtendedEval, and NewCodeBench datasets
+- 📊 **Comprehensive Benchmarks** - HumanEval, ExtendedEval, and AppliedEval datasets
 - 🔍 **Automated Evaluation** - Test LLM-generated code against structured test cases
 - 📈 **Difficulty Analysis** - Classify problems by complexity metrics
 - 🧪 **Coverage Analysis** - Assess edge case coverage in test suites
@@ -25,10 +24,10 @@ This toolkit consists of four main components:
 ### Core Scripts
 
 - **`example_usage_multiple_models.py`** - Execute multiple LLM models on benchmark datasets
-- **`evaluate_results_of_NewCodeBench.py`** - Evaluate LLM outputs for NewCodeBench.jsonl
-- **`evaluate_results_of_ExtendedEval.py`** - Evaluate LLM outputs for ExtendedEval.jsonl
-- **`DifficultyLevel.py`** - Analyze and classify problem difficulty
-- **`TestCoverage.py`** - Analyze test coverage and edge case handling
+- **`E1_evaluate_results_of_AppliedEval.py`** - Evaluate LLM outputs for AppliedEval.jsonl
+- **`E2_evaluate_results_of_ExtendedEval.py`** - Evaluate LLM outputs for ExtendedEval.jsonl
+- **`M5_DifficultyLevel.py`** - Analyze and classify problem difficulty
+- **`M4_TestCoverage.py`** - Analyze test coverage and edge case handling
 
 ---
 
@@ -71,96 +70,30 @@ GOOGLE_API_KEY=...
 
 The script will **automatically load** these keys when it runs!
 
-### 3. Run Evaluation
-
-```bash
-# Configure which models to test in example_usage_multiple_models.py
-# Then run:
-python3 example_usage_multiple_models.py \
-    --dataset NewCodeBench.jsonl \
-    --field prompt \
-    --out results.jsonl
-
-# Evaluate the results
-python evaluate_results_of_NewCodeBench.py \
-    --results results.jsonl \
-    --out evaluation_report.jsonl \
-    --verbose
-```
-
----
-
-## 📖 Usage
-
-### Configuring Models
-
-Edit `example_usage_multiple_models.py` to enable the models you want to test:
-
-```python
-OPENAI_MODELS = [
-    "gpt-5-2025-08-07",
-]
-
-GOOGLE_MODELS = [
-    "gemini-2.5-pro",
-    "gemini-2.0-flash",
-]
-
-BEDROCK_MODELS = [
-    "us.anthropic.claude-sonnet-4-20250514-v1:0",
-]
-```
-
-### Running on Different Datasets
-
-```bash
-python3 example_usage_multiple_models.py \
-    --dataset NewCodeBench.jsonl \
-    --field prompt \
-    --out results.jsonl
-```
-
-### Evaluating Results
-
-#### For NewCodeBench.jsonl or MyOwnBench.jsonl
-
-```bash
-# Basic evaluation
-#### For NewCodeBench.jsonl
-
-```bash
-python evaluate_results_of_NewCodeBench.py \
-    --results results.jsonl \
-    --out evaluation_report.jsonl \
-    --verbose
-```
-
-#### For ExtendedEval.jsonl
-
-```bash
-python evaluate_results_of_ExtendedEval.py \
-    --results results.jsonl \
-    --out evaluation_report.jsonl \
-    --verbose
-```
-
-**Output:**
-The evaluation script will:
-- Extract Python code from LLM responses
-- Run code against structured test cases
-- Handle both function-based and class-based tasks
-- Generate a detailed report with pass/fail status
-- Display final accuracy metrics
-
-### Analyzing Difficulty Levels
+## 3. Analyzing Difficulty Levels
 
 Classify problems by complexity using multiple metrics:
 
 ```bash
-python DifficultyLevel.py \
-    --input NewCodeBench.jsonl \
+python M5_DifficultyLevel.py \
+    --input AppliedEval.jsonl \
     --out difficulty_analysis.csv
 ```
+This script computes a difficulty score and difficulty category (Easy / Medium / Hard / Challenging) for each task in a HumanEval-style dataset. 
+It analyzes:
+
+- The canonical solution using AST (branching, loops, recursion, depth…)
+- The prompt (length + constraint words)
+- The tests (assert count + pattern features)
+
+What it produces:
+
+- A CSV file where each row includes:
+- code features
+- prompt features
+- test features
+- difficulty score
+- difficulty bucket
 
 **Metrics Analyzed:**
 - Code complexity (branching, loops, nesting depth)
@@ -169,17 +102,26 @@ python DifficultyLevel.py \
 - Test case characteristics
 - Prompt complexity and constraints
 
-### Analyzing Test Coverage
+### 4. Analyzing Test Coverage
 
 Assess edge case coverage in test suites:
 
 ```bash
-python TestCoverage.py \
-    --input NewCodeBench.jsonl \
+python M4_TestCoverage.py \
+    --input AppliedEval.jsonl \
     --out coverage_report.csv \
     --markdown coverage_summary.md \
     --summary
+
 ```
+This script analyzes a HumanEval-style JSONL dataset and produces coverage metrics for the test cases. 
+It checks patterns such as negatives, zeros, floats, large integers, Unicode, exceptions, empty lists/strings, and more.
+
+What it produces:
+
+- A CSV file summarizing per-task test coverage
+- An optional Markdown report
+- A command-line summary with coverage statistics
 
 **Coverage Categories:**
 - Negative numbers
@@ -193,35 +135,68 @@ python TestCoverage.py \
 - Whitespace/escape sequences
 
 
-## Examples
+## 📖 Usage
 
-### Real-World Workflow Examples
-
-#### Example 1: Single Model Evaluation with Google Gemini
+### Running on Different Datasets
 
 ```bash
-# Activate environment
-source venv/bin/activate
-
-# Set API key
-export GOOGLE_API_KEY="your-google-api-key"
-
-# Run evaluation
 python3 example_usage_multiple_models.py \
-    --dataset MyOwnBench.jsonl \
+    --dataset AppliedEval.jsonl \
+    --field prompt \
+    --out results.jsonl
+```
+
+
+###  Run Evaluation
+
+```bash
+# Configure which models to test in example_usage_multiple_models.py
+# Then run:
+python3 example_usage_multiple_models.py \
+    --dataset AppliedEval.jsonl \
     --field prompt \
     --out results.jsonl
 
-# Evaluate results
-python evaluate_results_of_NewCodeBench.py \
+# Evaluate the results
+python E1_evaluate_results_of_AppliedEval.py \
     --results results.jsonl \
     --out evaluation_report.jsonl \
     --verbose
 ```
 
-#### Example 2: AWS Bedrock with Region Configuration
+---
+
+
+#### For AppliedEval.jsonl 
 
 ```bash
+# Basic evaluation
+#### For AppliedEval.jsonl
+
+```bash
+python evaluate_results_of_AppliedEval.py \
+    --results results.jsonl \
+    --out evaluation_report.jsonl \
+    --verbose
+```
+
+#### For ExtendedEval.jsonl
+
+```bash
+python E2_evaluate_results_of_ExtendedEval.py \
+    --results results.jsonl \
+    --out evaluation_report.jsonl \
+    --verbose
+```
+
+**Output:**
+The evaluation script will:
+- Extract Python code from LLM responses
+- Run code against structured test cases
+- Handle both function-based and class-based tasks
+- Generate a detailed report with pass/fail status
+- Display final accuracy metrics
+
 
 ## 🔍 Troubleshooting
 
