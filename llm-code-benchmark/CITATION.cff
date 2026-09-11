@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "LLM Code Benchmark: AuthEceSoftEng Reproduction Package"
+message: "If you use this benchmark or reproduction package, please cite the accompanying manuscript."
+type: software
+authors:
+  - family-names: "AuthEceSoftEng"
+    given-names: "Project"
+version: "1.0.0-pre-release"
+date-released: "2026-07-23"
+license: MIT
+repository-code: "https://github.com/AuthEceSoftEng/llm-code-benchmark"

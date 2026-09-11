@@ -1,0 +1,1286 @@
+{
+  "dataset": "AppliedEval",
+  "tasks": 57,
+  "models": 15,
+  "scores": [
+    [
+      "deepseek_deepseek-v4-pro",
+      53,
+      57,
+      0.9298245614035088,
+      0.832998299039663,
+      0.972373579770934
+    ],
+    [
+      "openai_gpt-5.6-luna",
+      53,
+      57,
+      0.9298245614035088,
+      0.832998299039663,
+      0.972373579770934
+    ],
+    [
+      "deepseek_deepseek-v4-flash",
+      52,
+      57,
+      0.9122807017543859,
+      0.8105512290044132,
+      0.9619483282220778
+    ],
+    [
+      "google_gemini-3.5-flash",
+      52,
+      57,
+      0.9122807017543859,
+      0.8105512290044132,
+      0.9619483282220778
+    ],
+    [
+      "moonshotai_kimi-k2.6",
+      52,
+      57,
+      0.9122807017543859,
+      0.8105512290044132,
+      0.9619483282220778
+    ],
+    [
+      "openai_gpt-5.6-sol",
+      52,
+      57,
+      0.9122807017543859,
+      0.8105512290044132,
+      0.9619483282220778
+    ],
+    [
+      "anthropic_claude-opus-4.8",
+      51,
+      57,
+      0.8947368421052632,
+      0.7887718941661297,
+      0.9508553414762553
+    ],
+    [
+      "anthropic_claude-sonnet-5",
+      51,
+      57,
+      0.8947368421052632,
+      0.7887718941661297,
+      0.9508553414762553
+    ],
+    [
+      "moonshotai_kimi-k3",
+      51,
+      57,
+      0.8947368421052632,
+      0.7887718941661297,
+      0.9508553414762553
+    ],
+    [
+      "qwen_qwen3.7-max",
+      51,
+      57,
+      0.8947368421052632,
+      0.7887718941661297,
+      0.9508553414762553
+    ],
+    [
+      "openai_gpt-5.6-terra",
+      50,
+      57,
+      0.8771929824561403,
+      0.7675355156482598,
+      0.9392193984100191
+    ],
+    [
+      "qwen_qwen3.7-plus",
+      50,
+      57,
+      0.8771929824561403,
+      0.7675355156482598,
+      0.9392193984100191
+    ],
+    [
+      "xiaomi_mimo-v2.5-pro",
+      49,
+      57,
+      0.8596491228070176,
+      0.746755353906559,
+      0.9271272385676139
+    ],
+    [
+      "z-ai_glm-5.2",
+      49,
+      57,
+      0.8596491228070176,
+      0.746755353906559,
+      0.9271272385676139
+    ],
+    [
+      "minimax_minimax-m3",
+      47,
+      57,
+      0.8245614035087719,
+      0.7063264717030607,
+      0.9018114776029004
+    ]
+  ],
+  "pairwise": [
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "minimax_minimax-m3",
+      "p": 0.03125,
+      "discordant": 6,
+      "a_only": 6,
+      "bootstrap_low": 0.03508771929824561,
+      "bootstrap_high": 0.19298245614035087,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "minimax_minimax-m3",
+      "p": 0.0625,
+      "discordant": 5,
+      "a_only": 5,
+      "bootstrap_low": 0.017543859649122806,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 0.0625,
+      "discordant": 5,
+      "a_only": 0,
+      "bootstrap_low": -0.15789473684210525,
+      "bootstrap_high": -0.017543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "openai_gpt-5.6-sol",
+      "p": 0.0625,
+      "discordant": 5,
+      "a_only": 0,
+      "bootstrap_low": -0.15789473684210525,
+      "bootstrap_high": -0.017543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "openai_gpt-5.6-luna",
+      "p": 0.109375,
+      "discordant": 10,
+      "a_only": 2,
+      "bootstrap_low": -0.21052631578947367,
+      "bootstrap_high": 0.0,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "moonshotai_kimi-k3",
+      "p": 0.125,
+      "discordant": 4,
+      "a_only": 0,
+      "bootstrap_low": -0.14035087719298245,
+      "bootstrap_high": -0.017543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "qwen_qwen3.7-max",
+      "p": 0.125,
+      "discordant": 4,
+      "a_only": 0,
+      "bootstrap_low": -0.14035087719298245,
+      "bootstrap_high": -0.017543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "minimax_minimax-m3",
+      "p": 0.1796875,
+      "discordant": 9,
+      "a_only": 7,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.19298245614035087,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "minimax_minimax-m3",
+      "p": 0.21875,
+      "discordant": 6,
+      "a_only": 5,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.21875,
+      "discordant": 6,
+      "a_only": 5,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "z-ai_glm-5.2",
+      "p": 0.21875,
+      "discordant": 6,
+      "a_only": 5,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "z-ai_glm-5.2",
+      "p": 0.21875,
+      "discordant": 6,
+      "a_only": 5,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.25,
+      "discordant": 3,
+      "a_only": 3,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.25,
+      "discordant": 3,
+      "a_only": 0,
+      "bootstrap_low": -0.10526315789473684,
+      "bootstrap_high": 0.0,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.25,
+      "discordant": 3,
+      "a_only": 3,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "minimax_minimax-m3",
+      "p": 0.2890625,
+      "discordant": 8,
+      "a_only": 6,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.2890625,
+      "discordant": 8,
+      "a_only": 6,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.17543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "z-ai_glm-5.2",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 1,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.017543859649122806,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "z-ai_glm-5.2",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-sol",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-sol",
+      "b": "z-ai_glm-5.2",
+      "p": 0.375,
+      "discordant": 5,
+      "a_only": 4,
+      "bootstrap_low": -0.017543859649122806,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "z-ai_glm-5.2",
+      "p": 0.453125,
+      "discordant": 7,
+      "a_only": 5,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.15789473684210525,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.453125,
+      "discordant": 7,
+      "a_only": 5,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.453125,
+      "discordant": 7,
+      "a_only": 5,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.14035087719298245,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.5,
+      "discordant": 2,
+      "a_only": 2,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.5,
+      "discordant": 2,
+      "a_only": 2,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-sol",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.5,
+      "discordant": 2,
+      "a_only": 2,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-sol",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.5,
+      "discordant": 2,
+      "a_only": 2,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "openai_gpt-5.6-luna",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 1,
+      "bootstrap_low": -0.10526315789473684,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "moonshotai_kimi-k3",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 3,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 3,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 1,
+      "bootstrap_low": -0.10526315789473684,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 3,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 3,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "qwen_qwen3.7-max",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.625,
+      "discordant": 4,
+      "a_only": 3,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "deepseek_deepseek-v4-pro",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 2,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "z-ai_glm-5.2",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "deepseek_deepseek-v4-pro",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 2,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "openai_gpt-5.6-luna",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 2,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "z-ai_glm-5.2",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "openai_gpt-5.6-terra",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "qwen_qwen3.7-plus",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "qwen_qwen3.7-max",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "minimax_minimax-m3",
+      "b": "z-ai_glm-5.2",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 2,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "openai_gpt-5.6-luna",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 2,
+      "bootstrap_low": -0.12280701754385964,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "z-ai_glm-5.2",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "qwen_qwen3.7-max",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "qwen_qwen3.7-max",
+      "b": "z-ai_glm-5.2",
+      "p": 0.6875,
+      "discordant": 6,
+      "a_only": 4,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.12280701754385964,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "anthropic_claude-sonnet-5",
+      "p": 1.0,
+      "discordant": 6,
+      "a_only": 3,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "deepseek_deepseek-v4-flash",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.10526315789473684,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "google_gemini-3.5-flash",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 1,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 1,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "moonshotai_kimi-k3",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 0,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.0,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "openai_gpt-5.6-terra",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 2,
+      "a_only": 1,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-opus-4.8",
+      "b": "qwen_qwen3.7-plus",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "deepseek_deepseek-v4-flash",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "google_gemini-3.5-flash",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "moonshotai_kimi-k3",
+      "p": 1.0,
+      "discordant": 6,
+      "a_only": 3,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "openai_gpt-5.6-terra",
+      "p": 1.0,
+      "discordant": 7,
+      "a_only": 4,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 6,
+      "a_only": 3,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "anthropic_claude-sonnet-5",
+      "b": "qwen_qwen3.7-plus",
+      "p": 1.0,
+      "discordant": 7,
+      "a_only": 4,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "deepseek_deepseek-v4-pro",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "google_gemini-3.5-flash",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "moonshotai_kimi-k3",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "openai_gpt-5.6-luna",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.10526315789473684,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-flash",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "google_gemini-3.5-flash",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "openai_gpt-5.6-luna",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "deepseek_deepseek-v4-pro",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "moonshotai_kimi-k2.6",
+      "p": 1.0,
+      "discordant": 0,
+      "a_only": 0,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.0,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "moonshotai_kimi-k3",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "openai_gpt-5.6-luna",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 2,
+      "a_only": 1,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "google_gemini-3.5-flash",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 1,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "moonshotai_kimi-k3",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "openai_gpt-5.6-luna",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 2,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 2,
+      "a_only": 1,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k2.6",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 1,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 1,
+      "bootstrap_low": -0.08771929824561403,
+      "bootstrap_high": 0.03508771929824561,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "openai_gpt-5.6-terra",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 1,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 2,
+      "a_only": 1,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "moonshotai_kimi-k3",
+      "b": "qwen_qwen3.7-plus",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-luna",
+      "b": "openai_gpt-5.6-sol",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-sol",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 1,
+      "bootstrap_low": 0.0,
+      "bootstrap_high": 0.05263157894736842,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-terra",
+      "b": "qwen_qwen3.7-max",
+      "p": 1.0,
+      "discordant": 1,
+      "a_only": 0,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.0,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-terra",
+      "b": "qwen_qwen3.7-plus",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-terra",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "openai_gpt-5.6-terra",
+      "b": "z-ai_glm-5.2",
+      "p": 1.0,
+      "discordant": 5,
+      "a_only": 3,
+      "bootstrap_low": -0.05263157894736842,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "qwen_qwen3.7-max",
+      "b": "qwen_qwen3.7-plus",
+      "p": 1.0,
+      "discordant": 3,
+      "a_only": 2,
+      "bootstrap_low": -0.03508771929824561,
+      "bootstrap_high": 0.08771929824561403,
+      "holm_p": 1.0
+    },
+    {
+      "a": "qwen_qwen3.7-plus",
+      "b": "xiaomi_mimo-v2.5-pro",
+      "p": 1.0,
+      "discordant": 7,
+      "a_only": 4,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "qwen_qwen3.7-plus",
+      "b": "z-ai_glm-5.2",
+      "p": 1.0,
+      "discordant": 7,
+      "a_only": 4,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.10526315789473684,
+      "holm_p": 1.0
+    },
+    {
+      "a": "xiaomi_mimo-v2.5-pro",
+      "b": "z-ai_glm-5.2",
+      "p": 1.0,
+      "discordant": 4,
+      "a_only": 2,
+      "bootstrap_low": -0.07017543859649122,
+      "bootstrap_high": 0.07017543859649122,
+      "holm_p": 1.0
+    }
+  ],
+  "hardest": [
+    [
+      0,
+      11,
+      "custom_rank_projects_by_score"
+    ],
+    [
+      0,
+      25,
+      "se_filter_map_validate_nested"
+    ],
+    [
+      2,
+      52,
+      "custom_pretty_print_matrix"
+    ],
+    [
+      5,
+      50,
+      "custom_format_duration"
+    ],
+    [
+      8,
+      16,
+      "custom_summarize_category_totals"
+    ],
+    [
+      8,
+      23,
+      "str_clean_and_split_sentences"
+    ],
+    [
+      9,
+      27,
+      "custom_rotate_matrix"
+    ],
+    [
+      11,
+      14,
+      "custom_max_repeated_substring"
+    ],
+    [
+      12,
+      8,
+      "custom_resolve_dependencies"
+    ],
+    [
+      13,
+      10,
+      "custom_normalize_filename"
+    ]
+  ],
+  "easiest": [
+    [
+      15,
+      56,
+      "custom_parse_roman"
+    ],
+    [
+      15,
+      54,
+      "custom_format_prime_factors"
+    ],
+    [
+      15,
+      51,
+      "custom_parse_key_value_config"
+    ],
+    [
+      15,
+      49,
+      "custom_normalize_json_keys"
+    ],
+    [
+      15,
+      48,
+      "custom_parse_csv_numbers"
+    ],
+    [
+      15,
+      47,
+      "algorithms_knapsack01"
+    ],
+    [
+      15,
+      46,
+      "algorithms_longest_increasing"
+    ],
+    [
+      15,
+      45,
+      "parsing_regex_digits"
+    ],
+    [
+      15,
+      44,
+      "parsing_csv_sum"
+    ],
+    [
+      15,
+      43,
+      "graph_bfs_order"
+    ]
+  ],
+  "error_types": {
+    "assertion/test failure": 92
+  }
+}

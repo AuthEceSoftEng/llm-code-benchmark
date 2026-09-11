@@ -1,0 +1,856 @@
+dataset_index,task_id,model,passed,error_type
+0,custom_find_balanced_sublist,anthropic_claude-opus-4.8,1,pass
+0,custom_find_balanced_sublist,anthropic_claude-sonnet-5,1,pass
+0,custom_find_balanced_sublist,deepseek_deepseek-v4-flash,1,pass
+0,custom_find_balanced_sublist,deepseek_deepseek-v4-pro,1,pass
+0,custom_find_balanced_sublist,google_gemini-3.5-flash,1,pass
+0,custom_find_balanced_sublist,minimax_minimax-m3,1,pass
+0,custom_find_balanced_sublist,moonshotai_kimi-k2.6,1,pass
+0,custom_find_balanced_sublist,moonshotai_kimi-k3,1,pass
+0,custom_find_balanced_sublist,openai_gpt-5.6-luna,1,pass
+0,custom_find_balanced_sublist,openai_gpt-5.6-sol,1,pass
+0,custom_find_balanced_sublist,openai_gpt-5.6-terra,1,pass
+0,custom_find_balanced_sublist,qwen_qwen3.7-max,1,pass
+0,custom_find_balanced_sublist,qwen_qwen3.7-plus,1,pass
+0,custom_find_balanced_sublist,xiaomi_mimo-v2.5-pro,1,pass
+0,custom_find_balanced_sublist,z-ai_glm-5.2,0,assertion/test failure
+1,custom_merge_by_priority,anthropic_claude-opus-4.8,1,pass
+1,custom_merge_by_priority,anthropic_claude-sonnet-5,1,pass
+1,custom_merge_by_priority,deepseek_deepseek-v4-flash,1,pass
+1,custom_merge_by_priority,deepseek_deepseek-v4-pro,1,pass
+1,custom_merge_by_priority,google_gemini-3.5-flash,1,pass
+1,custom_merge_by_priority,minimax_minimax-m3,1,pass
+1,custom_merge_by_priority,moonshotai_kimi-k2.6,1,pass
+1,custom_merge_by_priority,moonshotai_kimi-k3,1,pass
+1,custom_merge_by_priority,openai_gpt-5.6-luna,1,pass
+1,custom_merge_by_priority,openai_gpt-5.6-sol,1,pass
+1,custom_merge_by_priority,openai_gpt-5.6-terra,1,pass
+1,custom_merge_by_priority,qwen_qwen3.7-max,1,pass
+1,custom_merge_by_priority,qwen_qwen3.7-plus,1,pass
+1,custom_merge_by_priority,xiaomi_mimo-v2.5-pro,1,pass
+1,custom_merge_by_priority,z-ai_glm-5.2,1,pass
+2,custom_parse_env_config,anthropic_claude-opus-4.8,1,pass
+2,custom_parse_env_config,anthropic_claude-sonnet-5,1,pass
+2,custom_parse_env_config,deepseek_deepseek-v4-flash,1,pass
+2,custom_parse_env_config,deepseek_deepseek-v4-pro,1,pass
+2,custom_parse_env_config,google_gemini-3.5-flash,1,pass
+2,custom_parse_env_config,minimax_minimax-m3,1,pass
+2,custom_parse_env_config,moonshotai_kimi-k2.6,1,pass
+2,custom_parse_env_config,moonshotai_kimi-k3,1,pass
+2,custom_parse_env_config,openai_gpt-5.6-luna,1,pass
+2,custom_parse_env_config,openai_gpt-5.6-sol,1,pass
+2,custom_parse_env_config,openai_gpt-5.6-terra,1,pass
+2,custom_parse_env_config,qwen_qwen3.7-max,1,pass
+2,custom_parse_env_config,qwen_qwen3.7-plus,1,pass
+2,custom_parse_env_config,xiaomi_mimo-v2.5-pro,1,pass
+2,custom_parse_env_config,z-ai_glm-5.2,1,pass
+3,custom_minimal_partition_difference,anthropic_claude-opus-4.8,1,pass
+3,custom_minimal_partition_difference,anthropic_claude-sonnet-5,1,pass
+3,custom_minimal_partition_difference,deepseek_deepseek-v4-flash,1,pass
+3,custom_minimal_partition_difference,deepseek_deepseek-v4-pro,1,pass
+3,custom_minimal_partition_difference,google_gemini-3.5-flash,1,pass
+3,custom_minimal_partition_difference,minimax_minimax-m3,1,pass
+3,custom_minimal_partition_difference,moonshotai_kimi-k2.6,1,pass
+3,custom_minimal_partition_difference,moonshotai_kimi-k3,1,pass
+3,custom_minimal_partition_difference,openai_gpt-5.6-luna,1,pass
+3,custom_minimal_partition_difference,openai_gpt-5.6-sol,1,pass
+3,custom_minimal_partition_difference,openai_gpt-5.6-terra,1,pass
+3,custom_minimal_partition_difference,qwen_qwen3.7-max,1,pass
+3,custom_minimal_partition_difference,qwen_qwen3.7-plus,1,pass
+3,custom_minimal_partition_difference,xiaomi_mimo-v2.5-pro,1,pass
+3,custom_minimal_partition_difference,z-ai_glm-5.2,1,pass
+4,custom_normalize_user_roles,anthropic_claude-opus-4.8,1,pass
+4,custom_normalize_user_roles,anthropic_claude-sonnet-5,1,pass
+4,custom_normalize_user_roles,deepseek_deepseek-v4-flash,1,pass
+4,custom_normalize_user_roles,deepseek_deepseek-v4-pro,1,pass
+4,custom_normalize_user_roles,google_gemini-3.5-flash,1,pass
+4,custom_normalize_user_roles,minimax_minimax-m3,1,pass
+4,custom_normalize_user_roles,moonshotai_kimi-k2.6,1,pass
+4,custom_normalize_user_roles,moonshotai_kimi-k3,1,pass
+4,custom_normalize_user_roles,openai_gpt-5.6-luna,1,pass
+4,custom_normalize_user_roles,openai_gpt-5.6-sol,1,pass
+4,custom_normalize_user_roles,openai_gpt-5.6-terra,1,pass
+4,custom_normalize_user_roles,qwen_qwen3.7-max,1,pass
+4,custom_normalize_user_roles,qwen_qwen3.7-plus,1,pass
+4,custom_normalize_user_roles,xiaomi_mimo-v2.5-pro,1,pass
+4,custom_normalize_user_roles,z-ai_glm-5.2,1,pass
+5,custom_can_form_expression,anthropic_claude-opus-4.8,1,pass
+5,custom_can_form_expression,anthropic_claude-sonnet-5,1,pass
+5,custom_can_form_expression,deepseek_deepseek-v4-flash,1,pass
+5,custom_can_form_expression,deepseek_deepseek-v4-pro,1,pass
+5,custom_can_form_expression,google_gemini-3.5-flash,1,pass
+5,custom_can_form_expression,minimax_minimax-m3,1,pass
+5,custom_can_form_expression,moonshotai_kimi-k2.6,1,pass
+5,custom_can_form_expression,moonshotai_kimi-k3,1,pass
+5,custom_can_form_expression,openai_gpt-5.6-luna,1,pass
+5,custom_can_form_expression,openai_gpt-5.6-sol,1,pass
+5,custom_can_form_expression,openai_gpt-5.6-terra,1,pass
+5,custom_can_form_expression,qwen_qwen3.7-max,1,pass
+5,custom_can_form_expression,qwen_qwen3.7-plus,0,assertion/test failure
+5,custom_can_form_expression,xiaomi_mimo-v2.5-pro,1,pass
+5,custom_can_form_expression,z-ai_glm-5.2,1,pass
+6,custom_has_balanced_bits,anthropic_claude-opus-4.8,1,pass
+6,custom_has_balanced_bits,anthropic_claude-sonnet-5,1,pass
+6,custom_has_balanced_bits,deepseek_deepseek-v4-flash,1,pass
+6,custom_has_balanced_bits,deepseek_deepseek-v4-pro,1,pass
+6,custom_has_balanced_bits,google_gemini-3.5-flash,1,pass
+6,custom_has_balanced_bits,minimax_minimax-m3,1,pass
+6,custom_has_balanced_bits,moonshotai_kimi-k2.6,1,pass
+6,custom_has_balanced_bits,moonshotai_kimi-k3,1,pass
+6,custom_has_balanced_bits,openai_gpt-5.6-luna,1,pass
+6,custom_has_balanced_bits,openai_gpt-5.6-sol,1,pass
+6,custom_has_balanced_bits,openai_gpt-5.6-terra,1,pass
+6,custom_has_balanced_bits,qwen_qwen3.7-max,1,pass
+6,custom_has_balanced_bits,qwen_qwen3.7-plus,1,pass
+6,custom_has_balanced_bits,xiaomi_mimo-v2.5-pro,1,pass
+6,custom_has_balanced_bits,z-ai_glm-5.2,1,pass
+7,custom_remove_repeating_groups,anthropic_claude-opus-4.8,1,pass
+7,custom_remove_repeating_groups,anthropic_claude-sonnet-5,1,pass
+7,custom_remove_repeating_groups,deepseek_deepseek-v4-flash,1,pass
+7,custom_remove_repeating_groups,deepseek_deepseek-v4-pro,1,pass
+7,custom_remove_repeating_groups,google_gemini-3.5-flash,1,pass
+7,custom_remove_repeating_groups,minimax_minimax-m3,1,pass
+7,custom_remove_repeating_groups,moonshotai_kimi-k2.6,1,pass
+7,custom_remove_repeating_groups,moonshotai_kimi-k3,1,pass
+7,custom_remove_repeating_groups,openai_gpt-5.6-luna,1,pass
+7,custom_remove_repeating_groups,openai_gpt-5.6-sol,1,pass
+7,custom_remove_repeating_groups,openai_gpt-5.6-terra,1,pass
+7,custom_remove_repeating_groups,qwen_qwen3.7-max,1,pass
+7,custom_remove_repeating_groups,qwen_qwen3.7-plus,1,pass
+7,custom_remove_repeating_groups,xiaomi_mimo-v2.5-pro,1,pass
+7,custom_remove_repeating_groups,z-ai_glm-5.2,1,pass
+8,custom_resolve_dependencies,anthropic_claude-opus-4.8,1,pass
+8,custom_resolve_dependencies,anthropic_claude-sonnet-5,1,pass
+8,custom_resolve_dependencies,deepseek_deepseek-v4-flash,1,pass
+8,custom_resolve_dependencies,deepseek_deepseek-v4-pro,0,assertion/test failure
+8,custom_resolve_dependencies,google_gemini-3.5-flash,1,pass
+8,custom_resolve_dependencies,minimax_minimax-m3,0,assertion/test failure
+8,custom_resolve_dependencies,moonshotai_kimi-k2.6,1,pass
+8,custom_resolve_dependencies,moonshotai_kimi-k3,1,pass
+8,custom_resolve_dependencies,openai_gpt-5.6-luna,1,pass
+8,custom_resolve_dependencies,openai_gpt-5.6-sol,1,pass
+8,custom_resolve_dependencies,openai_gpt-5.6-terra,1,pass
+8,custom_resolve_dependencies,qwen_qwen3.7-max,1,pass
+8,custom_resolve_dependencies,qwen_qwen3.7-plus,0,assertion/test failure
+8,custom_resolve_dependencies,xiaomi_mimo-v2.5-pro,1,pass
+8,custom_resolve_dependencies,z-ai_glm-5.2,1,pass
+9,custom_clean_and_validate_urls,anthropic_claude-opus-4.8,1,pass
+9,custom_clean_and_validate_urls,anthropic_claude-sonnet-5,1,pass
+9,custom_clean_and_validate_urls,deepseek_deepseek-v4-flash,1,pass
+9,custom_clean_and_validate_urls,deepseek_deepseek-v4-pro,1,pass
+9,custom_clean_and_validate_urls,google_gemini-3.5-flash,1,pass
+9,custom_clean_and_validate_urls,minimax_minimax-m3,1,pass
+9,custom_clean_and_validate_urls,moonshotai_kimi-k2.6,1,pass
+9,custom_clean_and_validate_urls,moonshotai_kimi-k3,1,pass
+9,custom_clean_and_validate_urls,openai_gpt-5.6-luna,1,pass
+9,custom_clean_and_validate_urls,openai_gpt-5.6-sol,1,pass
+9,custom_clean_and_validate_urls,openai_gpt-5.6-terra,1,pass
+9,custom_clean_and_validate_urls,qwen_qwen3.7-max,1,pass
+9,custom_clean_and_validate_urls,qwen_qwen3.7-plus,1,pass
+9,custom_clean_and_validate_urls,xiaomi_mimo-v2.5-pro,1,pass
+9,custom_clean_and_validate_urls,z-ai_glm-5.2,1,pass
+10,custom_normalize_filename,anthropic_claude-opus-4.8,1,pass
+10,custom_normalize_filename,anthropic_claude-sonnet-5,1,pass
+10,custom_normalize_filename,deepseek_deepseek-v4-flash,0,assertion/test failure
+10,custom_normalize_filename,deepseek_deepseek-v4-pro,1,pass
+10,custom_normalize_filename,google_gemini-3.5-flash,1,pass
+10,custom_normalize_filename,minimax_minimax-m3,1,pass
+10,custom_normalize_filename,moonshotai_kimi-k2.6,1,pass
+10,custom_normalize_filename,moonshotai_kimi-k3,1,pass
+10,custom_normalize_filename,openai_gpt-5.6-luna,1,pass
+10,custom_normalize_filename,openai_gpt-5.6-sol,1,pass
+10,custom_normalize_filename,openai_gpt-5.6-terra,1,pass
+10,custom_normalize_filename,qwen_qwen3.7-max,1,pass
+10,custom_normalize_filename,qwen_qwen3.7-plus,1,pass
+10,custom_normalize_filename,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+10,custom_normalize_filename,z-ai_glm-5.2,1,pass
+11,custom_rank_projects_by_score,anthropic_claude-opus-4.8,0,assertion/test failure
+11,custom_rank_projects_by_score,anthropic_claude-sonnet-5,0,assertion/test failure
+11,custom_rank_projects_by_score,deepseek_deepseek-v4-flash,0,assertion/test failure
+11,custom_rank_projects_by_score,deepseek_deepseek-v4-pro,0,assertion/test failure
+11,custom_rank_projects_by_score,google_gemini-3.5-flash,0,assertion/test failure
+11,custom_rank_projects_by_score,minimax_minimax-m3,0,assertion/test failure
+11,custom_rank_projects_by_score,moonshotai_kimi-k2.6,0,assertion/test failure
+11,custom_rank_projects_by_score,moonshotai_kimi-k3,0,assertion/test failure
+11,custom_rank_projects_by_score,openai_gpt-5.6-luna,0,assertion/test failure
+11,custom_rank_projects_by_score,openai_gpt-5.6-sol,0,assertion/test failure
+11,custom_rank_projects_by_score,openai_gpt-5.6-terra,0,assertion/test failure
+11,custom_rank_projects_by_score,qwen_qwen3.7-max,0,assertion/test failure
+11,custom_rank_projects_by_score,qwen_qwen3.7-plus,0,assertion/test failure
+11,custom_rank_projects_by_score,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+11,custom_rank_projects_by_score,z-ai_glm-5.2,0,assertion/test failure
+12,custom_longest_prime_gap,anthropic_claude-opus-4.8,1,pass
+12,custom_longest_prime_gap,anthropic_claude-sonnet-5,1,pass
+12,custom_longest_prime_gap,deepseek_deepseek-v4-flash,1,pass
+12,custom_longest_prime_gap,deepseek_deepseek-v4-pro,1,pass
+12,custom_longest_prime_gap,google_gemini-3.5-flash,1,pass
+12,custom_longest_prime_gap,minimax_minimax-m3,1,pass
+12,custom_longest_prime_gap,moonshotai_kimi-k2.6,1,pass
+12,custom_longest_prime_gap,moonshotai_kimi-k3,1,pass
+12,custom_longest_prime_gap,openai_gpt-5.6-luna,1,pass
+12,custom_longest_prime_gap,openai_gpt-5.6-sol,1,pass
+12,custom_longest_prime_gap,openai_gpt-5.6-terra,1,pass
+12,custom_longest_prime_gap,qwen_qwen3.7-max,1,pass
+12,custom_longest_prime_gap,qwen_qwen3.7-plus,1,pass
+12,custom_longest_prime_gap,xiaomi_mimo-v2.5-pro,1,pass
+12,custom_longest_prime_gap,z-ai_glm-5.2,1,pass
+13,custom_categorize_commit_message,anthropic_claude-opus-4.8,1,pass
+13,custom_categorize_commit_message,anthropic_claude-sonnet-5,1,pass
+13,custom_categorize_commit_message,deepseek_deepseek-v4-flash,1,pass
+13,custom_categorize_commit_message,deepseek_deepseek-v4-pro,1,pass
+13,custom_categorize_commit_message,google_gemini-3.5-flash,1,pass
+13,custom_categorize_commit_message,minimax_minimax-m3,1,pass
+13,custom_categorize_commit_message,moonshotai_kimi-k2.6,1,pass
+13,custom_categorize_commit_message,moonshotai_kimi-k3,1,pass
+13,custom_categorize_commit_message,openai_gpt-5.6-luna,1,pass
+13,custom_categorize_commit_message,openai_gpt-5.6-sol,1,pass
+13,custom_categorize_commit_message,openai_gpt-5.6-terra,1,pass
+13,custom_categorize_commit_message,qwen_qwen3.7-max,1,pass
+13,custom_categorize_commit_message,qwen_qwen3.7-plus,1,pass
+13,custom_categorize_commit_message,xiaomi_mimo-v2.5-pro,1,pass
+13,custom_categorize_commit_message,z-ai_glm-5.2,1,pass
+14,custom_max_repeated_substring,anthropic_claude-opus-4.8,1,pass
+14,custom_max_repeated_substring,anthropic_claude-sonnet-5,0,assertion/test failure
+14,custom_max_repeated_substring,deepseek_deepseek-v4-flash,1,pass
+14,custom_max_repeated_substring,deepseek_deepseek-v4-pro,1,pass
+14,custom_max_repeated_substring,google_gemini-3.5-flash,1,pass
+14,custom_max_repeated_substring,minimax_minimax-m3,0,assertion/test failure
+14,custom_max_repeated_substring,moonshotai_kimi-k2.6,1,pass
+14,custom_max_repeated_substring,moonshotai_kimi-k3,1,pass
+14,custom_max_repeated_substring,openai_gpt-5.6-luna,1,pass
+14,custom_max_repeated_substring,openai_gpt-5.6-sol,1,pass
+14,custom_max_repeated_substring,openai_gpt-5.6-terra,1,pass
+14,custom_max_repeated_substring,qwen_qwen3.7-max,1,pass
+14,custom_max_repeated_substring,qwen_qwen3.7-plus,1,pass
+14,custom_max_repeated_substring,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+14,custom_max_repeated_substring,z-ai_glm-5.2,0,assertion/test failure
+15,custom_longest_valid_bracket_substring,anthropic_claude-opus-4.8,1,pass
+15,custom_longest_valid_bracket_substring,anthropic_claude-sonnet-5,1,pass
+15,custom_longest_valid_bracket_substring,deepseek_deepseek-v4-flash,1,pass
+15,custom_longest_valid_bracket_substring,deepseek_deepseek-v4-pro,1,pass
+15,custom_longest_valid_bracket_substring,google_gemini-3.5-flash,1,pass
+15,custom_longest_valid_bracket_substring,minimax_minimax-m3,1,pass
+15,custom_longest_valid_bracket_substring,moonshotai_kimi-k2.6,1,pass
+15,custom_longest_valid_bracket_substring,moonshotai_kimi-k3,1,pass
+15,custom_longest_valid_bracket_substring,openai_gpt-5.6-luna,1,pass
+15,custom_longest_valid_bracket_substring,openai_gpt-5.6-sol,1,pass
+15,custom_longest_valid_bracket_substring,openai_gpt-5.6-terra,1,pass
+15,custom_longest_valid_bracket_substring,qwen_qwen3.7-max,1,pass
+15,custom_longest_valid_bracket_substring,qwen_qwen3.7-plus,1,pass
+15,custom_longest_valid_bracket_substring,xiaomi_mimo-v2.5-pro,1,pass
+15,custom_longest_valid_bracket_substring,z-ai_glm-5.2,1,pass
+16,custom_summarize_category_totals,anthropic_claude-opus-4.8,0,assertion/test failure
+16,custom_summarize_category_totals,anthropic_claude-sonnet-5,1,pass
+16,custom_summarize_category_totals,deepseek_deepseek-v4-flash,1,pass
+16,custom_summarize_category_totals,deepseek_deepseek-v4-pro,1,pass
+16,custom_summarize_category_totals,google_gemini-3.5-flash,1,pass
+16,custom_summarize_category_totals,minimax_minimax-m3,0,assertion/test failure
+16,custom_summarize_category_totals,moonshotai_kimi-k2.6,1,pass
+16,custom_summarize_category_totals,moonshotai_kimi-k3,0,assertion/test failure
+16,custom_summarize_category_totals,openai_gpt-5.6-luna,1,pass
+16,custom_summarize_category_totals,openai_gpt-5.6-sol,0,assertion/test failure
+16,custom_summarize_category_totals,openai_gpt-5.6-terra,0,assertion/test failure
+16,custom_summarize_category_totals,qwen_qwen3.7-max,0,assertion/test failure
+16,custom_summarize_category_totals,qwen_qwen3.7-plus,0,assertion/test failure
+16,custom_summarize_category_totals,xiaomi_mimo-v2.5-pro,1,pass
+16,custom_summarize_category_totals,z-ai_glm-5.2,1,pass
+17,custom_filter_unique_keywords,anthropic_claude-opus-4.8,1,pass
+17,custom_filter_unique_keywords,anthropic_claude-sonnet-5,1,pass
+17,custom_filter_unique_keywords,deepseek_deepseek-v4-flash,1,pass
+17,custom_filter_unique_keywords,deepseek_deepseek-v4-pro,1,pass
+17,custom_filter_unique_keywords,google_gemini-3.5-flash,1,pass
+17,custom_filter_unique_keywords,minimax_minimax-m3,1,pass
+17,custom_filter_unique_keywords,moonshotai_kimi-k2.6,1,pass
+17,custom_filter_unique_keywords,moonshotai_kimi-k3,1,pass
+17,custom_filter_unique_keywords,openai_gpt-5.6-luna,1,pass
+17,custom_filter_unique_keywords,openai_gpt-5.6-sol,1,pass
+17,custom_filter_unique_keywords,openai_gpt-5.6-terra,1,pass
+17,custom_filter_unique_keywords,qwen_qwen3.7-max,1,pass
+17,custom_filter_unique_keywords,qwen_qwen3.7-plus,1,pass
+17,custom_filter_unique_keywords,xiaomi_mimo-v2.5-pro,1,pass
+17,custom_filter_unique_keywords,z-ai_glm-5.2,1,pass
+18,ds_next_greater_circular,anthropic_claude-opus-4.8,1,pass
+18,ds_next_greater_circular,anthropic_claude-sonnet-5,1,pass
+18,ds_next_greater_circular,deepseek_deepseek-v4-flash,1,pass
+18,ds_next_greater_circular,deepseek_deepseek-v4-pro,1,pass
+18,ds_next_greater_circular,google_gemini-3.5-flash,1,pass
+18,ds_next_greater_circular,minimax_minimax-m3,1,pass
+18,ds_next_greater_circular,moonshotai_kimi-k2.6,1,pass
+18,ds_next_greater_circular,moonshotai_kimi-k3,1,pass
+18,ds_next_greater_circular,openai_gpt-5.6-luna,1,pass
+18,ds_next_greater_circular,openai_gpt-5.6-sol,1,pass
+18,ds_next_greater_circular,openai_gpt-5.6-terra,1,pass
+18,ds_next_greater_circular,qwen_qwen3.7-max,1,pass
+18,ds_next_greater_circular,qwen_qwen3.7-plus,1,pass
+18,ds_next_greater_circular,xiaomi_mimo-v2.5-pro,1,pass
+18,ds_next_greater_circular,z-ai_glm-5.2,1,pass
+19,str_normalize_product_code,anthropic_claude-opus-4.8,1,pass
+19,str_normalize_product_code,anthropic_claude-sonnet-5,1,pass
+19,str_normalize_product_code,deepseek_deepseek-v4-flash,1,pass
+19,str_normalize_product_code,deepseek_deepseek-v4-pro,1,pass
+19,str_normalize_product_code,google_gemini-3.5-flash,1,pass
+19,str_normalize_product_code,minimax_minimax-m3,0,assertion/test failure
+19,str_normalize_product_code,moonshotai_kimi-k2.6,1,pass
+19,str_normalize_product_code,moonshotai_kimi-k3,1,pass
+19,str_normalize_product_code,openai_gpt-5.6-luna,1,pass
+19,str_normalize_product_code,openai_gpt-5.6-sol,1,pass
+19,str_normalize_product_code,openai_gpt-5.6-terra,1,pass
+19,str_normalize_product_code,qwen_qwen3.7-max,1,pass
+19,str_normalize_product_code,qwen_qwen3.7-plus,1,pass
+19,str_normalize_product_code,xiaomi_mimo-v2.5-pro,1,pass
+19,str_normalize_product_code,z-ai_glm-5.2,1,pass
+20,bit_single_number_triplicates,anthropic_claude-opus-4.8,1,pass
+20,bit_single_number_triplicates,anthropic_claude-sonnet-5,1,pass
+20,bit_single_number_triplicates,deepseek_deepseek-v4-flash,1,pass
+20,bit_single_number_triplicates,deepseek_deepseek-v4-pro,1,pass
+20,bit_single_number_triplicates,google_gemini-3.5-flash,1,pass
+20,bit_single_number_triplicates,minimax_minimax-m3,1,pass
+20,bit_single_number_triplicates,moonshotai_kimi-k2.6,1,pass
+20,bit_single_number_triplicates,moonshotai_kimi-k3,1,pass
+20,bit_single_number_triplicates,openai_gpt-5.6-luna,1,pass
+20,bit_single_number_triplicates,openai_gpt-5.6-sol,1,pass
+20,bit_single_number_triplicates,openai_gpt-5.6-terra,1,pass
+20,bit_single_number_triplicates,qwen_qwen3.7-max,1,pass
+20,bit_single_number_triplicates,qwen_qwen3.7-plus,1,pass
+20,bit_single_number_triplicates,xiaomi_mimo-v2.5-pro,1,pass
+20,bit_single_number_triplicates,z-ai_glm-5.2,1,pass
+21,graph_can_finish_prereqs,anthropic_claude-opus-4.8,1,pass
+21,graph_can_finish_prereqs,anthropic_claude-sonnet-5,1,pass
+21,graph_can_finish_prereqs,deepseek_deepseek-v4-flash,1,pass
+21,graph_can_finish_prereqs,deepseek_deepseek-v4-pro,1,pass
+21,graph_can_finish_prereqs,google_gemini-3.5-flash,1,pass
+21,graph_can_finish_prereqs,minimax_minimax-m3,1,pass
+21,graph_can_finish_prereqs,moonshotai_kimi-k2.6,1,pass
+21,graph_can_finish_prereqs,moonshotai_kimi-k3,1,pass
+21,graph_can_finish_prereqs,openai_gpt-5.6-luna,1,pass
+21,graph_can_finish_prereqs,openai_gpt-5.6-sol,1,pass
+21,graph_can_finish_prereqs,openai_gpt-5.6-terra,1,pass
+21,graph_can_finish_prereqs,qwen_qwen3.7-max,1,pass
+21,graph_can_finish_prereqs,qwen_qwen3.7-plus,1,pass
+21,graph_can_finish_prereqs,xiaomi_mimo-v2.5-pro,1,pass
+21,graph_can_finish_prereqs,z-ai_glm-5.2,1,pass
+22,se_safe_deep_get,anthropic_claude-opus-4.8,1,pass
+22,se_safe_deep_get,anthropic_claude-sonnet-5,1,pass
+22,se_safe_deep_get,deepseek_deepseek-v4-flash,1,pass
+22,se_safe_deep_get,deepseek_deepseek-v4-pro,1,pass
+22,se_safe_deep_get,google_gemini-3.5-flash,1,pass
+22,se_safe_deep_get,minimax_minimax-m3,1,pass
+22,se_safe_deep_get,moonshotai_kimi-k2.6,1,pass
+22,se_safe_deep_get,moonshotai_kimi-k3,1,pass
+22,se_safe_deep_get,openai_gpt-5.6-luna,1,pass
+22,se_safe_deep_get,openai_gpt-5.6-sol,1,pass
+22,se_safe_deep_get,openai_gpt-5.6-terra,1,pass
+22,se_safe_deep_get,qwen_qwen3.7-max,1,pass
+22,se_safe_deep_get,qwen_qwen3.7-plus,1,pass
+22,se_safe_deep_get,xiaomi_mimo-v2.5-pro,1,pass
+22,se_safe_deep_get,z-ai_glm-5.2,1,pass
+23,str_clean_and_split_sentences,anthropic_claude-opus-4.8,1,pass
+23,str_clean_and_split_sentences,anthropic_claude-sonnet-5,1,pass
+23,str_clean_and_split_sentences,deepseek_deepseek-v4-flash,1,pass
+23,str_clean_and_split_sentences,deepseek_deepseek-v4-pro,1,pass
+23,str_clean_and_split_sentences,google_gemini-3.5-flash,0,assertion/test failure
+23,str_clean_and_split_sentences,minimax_minimax-m3,0,assertion/test failure
+23,str_clean_and_split_sentences,moonshotai_kimi-k2.6,0,assertion/test failure
+23,str_clean_and_split_sentences,moonshotai_kimi-k3,0,assertion/test failure
+23,str_clean_and_split_sentences,openai_gpt-5.6-luna,1,pass
+23,str_clean_and_split_sentences,openai_gpt-5.6-sol,1,pass
+23,str_clean_and_split_sentences,openai_gpt-5.6-terra,0,assertion/test failure
+23,str_clean_and_split_sentences,qwen_qwen3.7-max,0,assertion/test failure
+23,str_clean_and_split_sentences,qwen_qwen3.7-plus,1,pass
+23,str_clean_and_split_sentences,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+23,str_clean_and_split_sentences,z-ai_glm-5.2,1,pass
+24,bit_counting_set_bits,anthropic_claude-opus-4.8,1,pass
+24,bit_counting_set_bits,anthropic_claude-sonnet-5,1,pass
+24,bit_counting_set_bits,deepseek_deepseek-v4-flash,1,pass
+24,bit_counting_set_bits,deepseek_deepseek-v4-pro,1,pass
+24,bit_counting_set_bits,google_gemini-3.5-flash,1,pass
+24,bit_counting_set_bits,minimax_minimax-m3,1,pass
+24,bit_counting_set_bits,moonshotai_kimi-k2.6,1,pass
+24,bit_counting_set_bits,moonshotai_kimi-k3,1,pass
+24,bit_counting_set_bits,openai_gpt-5.6-luna,1,pass
+24,bit_counting_set_bits,openai_gpt-5.6-sol,1,pass
+24,bit_counting_set_bits,openai_gpt-5.6-terra,1,pass
+24,bit_counting_set_bits,qwen_qwen3.7-max,1,pass
+24,bit_counting_set_bits,qwen_qwen3.7-plus,1,pass
+24,bit_counting_set_bits,xiaomi_mimo-v2.5-pro,1,pass
+24,bit_counting_set_bits,z-ai_glm-5.2,1,pass
+25,se_filter_map_validate_nested,anthropic_claude-opus-4.8,0,assertion/test failure
+25,se_filter_map_validate_nested,anthropic_claude-sonnet-5,0,assertion/test failure
+25,se_filter_map_validate_nested,deepseek_deepseek-v4-flash,0,assertion/test failure
+25,se_filter_map_validate_nested,deepseek_deepseek-v4-pro,0,assertion/test failure
+25,se_filter_map_validate_nested,google_gemini-3.5-flash,0,assertion/test failure
+25,se_filter_map_validate_nested,minimax_minimax-m3,0,assertion/test failure
+25,se_filter_map_validate_nested,moonshotai_kimi-k2.6,0,assertion/test failure
+25,se_filter_map_validate_nested,moonshotai_kimi-k3,0,assertion/test failure
+25,se_filter_map_validate_nested,openai_gpt-5.6-luna,0,assertion/test failure
+25,se_filter_map_validate_nested,openai_gpt-5.6-sol,0,assertion/test failure
+25,se_filter_map_validate_nested,openai_gpt-5.6-terra,0,assertion/test failure
+25,se_filter_map_validate_nested,qwen_qwen3.7-max,0,assertion/test failure
+25,se_filter_map_validate_nested,qwen_qwen3.7-plus,0,assertion/test failure
+25,se_filter_map_validate_nested,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+25,se_filter_map_validate_nested,z-ai_glm-5.2,0,assertion/test failure
+26,custom_sliding_window_max,anthropic_claude-opus-4.8,1,pass
+26,custom_sliding_window_max,anthropic_claude-sonnet-5,1,pass
+26,custom_sliding_window_max,deepseek_deepseek-v4-flash,1,pass
+26,custom_sliding_window_max,deepseek_deepseek-v4-pro,1,pass
+26,custom_sliding_window_max,google_gemini-3.5-flash,1,pass
+26,custom_sliding_window_max,minimax_minimax-m3,1,pass
+26,custom_sliding_window_max,moonshotai_kimi-k2.6,1,pass
+26,custom_sliding_window_max,moonshotai_kimi-k3,1,pass
+26,custom_sliding_window_max,openai_gpt-5.6-luna,1,pass
+26,custom_sliding_window_max,openai_gpt-5.6-sol,1,pass
+26,custom_sliding_window_max,openai_gpt-5.6-terra,1,pass
+26,custom_sliding_window_max,qwen_qwen3.7-max,1,pass
+26,custom_sliding_window_max,qwen_qwen3.7-plus,1,pass
+26,custom_sliding_window_max,xiaomi_mimo-v2.5-pro,1,pass
+26,custom_sliding_window_max,z-ai_glm-5.2,1,pass
+27,custom_rotate_matrix,anthropic_claude-opus-4.8,1,pass
+27,custom_rotate_matrix,anthropic_claude-sonnet-5,1,pass
+27,custom_rotate_matrix,deepseek_deepseek-v4-flash,1,pass
+27,custom_rotate_matrix,deepseek_deepseek-v4-pro,0,assertion/test failure
+27,custom_rotate_matrix,google_gemini-3.5-flash,1,pass
+27,custom_rotate_matrix,minimax_minimax-m3,0,assertion/test failure
+27,custom_rotate_matrix,moonshotai_kimi-k2.6,1,pass
+27,custom_rotate_matrix,moonshotai_kimi-k3,0,assertion/test failure
+27,custom_rotate_matrix,openai_gpt-5.6-luna,1,pass
+27,custom_rotate_matrix,openai_gpt-5.6-sol,1,pass
+27,custom_rotate_matrix,openai_gpt-5.6-terra,0,assertion/test failure
+27,custom_rotate_matrix,qwen_qwen3.7-max,1,pass
+27,custom_rotate_matrix,qwen_qwen3.7-plus,1,pass
+27,custom_rotate_matrix,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+27,custom_rotate_matrix,z-ai_glm-5.2,0,assertion/test failure
+28,alg_arithmetic_sequence,anthropic_claude-opus-4.8,1,pass
+28,alg_arithmetic_sequence,anthropic_claude-sonnet-5,1,pass
+28,alg_arithmetic_sequence,deepseek_deepseek-v4-flash,1,pass
+28,alg_arithmetic_sequence,deepseek_deepseek-v4-pro,1,pass
+28,alg_arithmetic_sequence,google_gemini-3.5-flash,1,pass
+28,alg_arithmetic_sequence,minimax_minimax-m3,1,pass
+28,alg_arithmetic_sequence,moonshotai_kimi-k2.6,1,pass
+28,alg_arithmetic_sequence,moonshotai_kimi-k3,1,pass
+28,alg_arithmetic_sequence,openai_gpt-5.6-luna,1,pass
+28,alg_arithmetic_sequence,openai_gpt-5.6-sol,1,pass
+28,alg_arithmetic_sequence,openai_gpt-5.6-terra,1,pass
+28,alg_arithmetic_sequence,qwen_qwen3.7-max,1,pass
+28,alg_arithmetic_sequence,qwen_qwen3.7-plus,1,pass
+28,alg_arithmetic_sequence,xiaomi_mimo-v2.5-pro,1,pass
+28,alg_arithmetic_sequence,z-ai_glm-5.2,1,pass
+29,se_severity_classifier,anthropic_claude-opus-4.8,1,pass
+29,se_severity_classifier,anthropic_claude-sonnet-5,1,pass
+29,se_severity_classifier,deepseek_deepseek-v4-flash,0,assertion/test failure
+29,se_severity_classifier,deepseek_deepseek-v4-pro,1,pass
+29,se_severity_classifier,google_gemini-3.5-flash,1,pass
+29,se_severity_classifier,minimax_minimax-m3,1,pass
+29,se_severity_classifier,moonshotai_kimi-k2.6,1,pass
+29,se_severity_classifier,moonshotai_kimi-k3,1,pass
+29,se_severity_classifier,openai_gpt-5.6-luna,1,pass
+29,se_severity_classifier,openai_gpt-5.6-sol,1,pass
+29,se_severity_classifier,openai_gpt-5.6-terra,1,pass
+29,se_severity_classifier,qwen_qwen3.7-max,1,pass
+29,se_severity_classifier,qwen_qwen3.7-plus,1,pass
+29,se_severity_classifier,xiaomi_mimo-v2.5-pro,1,pass
+29,se_severity_classifier,z-ai_glm-5.2,1,pass
+30,alg_peak_finder,anthropic_claude-opus-4.8,1,pass
+30,alg_peak_finder,anthropic_claude-sonnet-5,0,assertion/test failure
+30,alg_peak_finder,deepseek_deepseek-v4-flash,1,pass
+30,alg_peak_finder,deepseek_deepseek-v4-pro,1,pass
+30,alg_peak_finder,google_gemini-3.5-flash,1,pass
+30,alg_peak_finder,minimax_minimax-m3,1,pass
+30,alg_peak_finder,moonshotai_kimi-k2.6,1,pass
+30,alg_peak_finder,moonshotai_kimi-k3,1,pass
+30,alg_peak_finder,openai_gpt-5.6-luna,1,pass
+30,alg_peak_finder,openai_gpt-5.6-sol,1,pass
+30,alg_peak_finder,openai_gpt-5.6-terra,1,pass
+30,alg_peak_finder,qwen_qwen3.7-max,1,pass
+30,alg_peak_finder,qwen_qwen3.7-plus,1,pass
+30,alg_peak_finder,xiaomi_mimo-v2.5-pro,1,pass
+30,alg_peak_finder,z-ai_glm-5.2,1,pass
+31,custom_find_anagrams,anthropic_claude-opus-4.8,1,pass
+31,custom_find_anagrams,anthropic_claude-sonnet-5,1,pass
+31,custom_find_anagrams,deepseek_deepseek-v4-flash,1,pass
+31,custom_find_anagrams,deepseek_deepseek-v4-pro,1,pass
+31,custom_find_anagrams,google_gemini-3.5-flash,1,pass
+31,custom_find_anagrams,minimax_minimax-m3,1,pass
+31,custom_find_anagrams,moonshotai_kimi-k2.6,1,pass
+31,custom_find_anagrams,moonshotai_kimi-k3,1,pass
+31,custom_find_anagrams,openai_gpt-5.6-luna,1,pass
+31,custom_find_anagrams,openai_gpt-5.6-sol,1,pass
+31,custom_find_anagrams,openai_gpt-5.6-terra,1,pass
+31,custom_find_anagrams,qwen_qwen3.7-max,1,pass
+31,custom_find_anagrams,qwen_qwen3.7-plus,1,pass
+31,custom_find_anagrams,xiaomi_mimo-v2.5-pro,1,pass
+31,custom_find_anagrams,z-ai_glm-5.2,1,pass
+32,custom_merge_intervals,anthropic_claude-opus-4.8,1,pass
+32,custom_merge_intervals,anthropic_claude-sonnet-5,1,pass
+32,custom_merge_intervals,deepseek_deepseek-v4-flash,1,pass
+32,custom_merge_intervals,deepseek_deepseek-v4-pro,1,pass
+32,custom_merge_intervals,google_gemini-3.5-flash,1,pass
+32,custom_merge_intervals,minimax_minimax-m3,1,pass
+32,custom_merge_intervals,moonshotai_kimi-k2.6,1,pass
+32,custom_merge_intervals,moonshotai_kimi-k3,1,pass
+32,custom_merge_intervals,openai_gpt-5.6-luna,1,pass
+32,custom_merge_intervals,openai_gpt-5.6-sol,1,pass
+32,custom_merge_intervals,openai_gpt-5.6-terra,1,pass
+32,custom_merge_intervals,qwen_qwen3.7-max,1,pass
+32,custom_merge_intervals,qwen_qwen3.7-plus,1,pass
+32,custom_merge_intervals,xiaomi_mimo-v2.5-pro,1,pass
+32,custom_merge_intervals,z-ai_glm-5.2,1,pass
+33,custom_binary_tree_paths,anthropic_claude-opus-4.8,1,pass
+33,custom_binary_tree_paths,anthropic_claude-sonnet-5,1,pass
+33,custom_binary_tree_paths,deepseek_deepseek-v4-flash,1,pass
+33,custom_binary_tree_paths,deepseek_deepseek-v4-pro,1,pass
+33,custom_binary_tree_paths,google_gemini-3.5-flash,1,pass
+33,custom_binary_tree_paths,minimax_minimax-m3,1,pass
+33,custom_binary_tree_paths,moonshotai_kimi-k2.6,1,pass
+33,custom_binary_tree_paths,moonshotai_kimi-k3,1,pass
+33,custom_binary_tree_paths,openai_gpt-5.6-luna,1,pass
+33,custom_binary_tree_paths,openai_gpt-5.6-sol,1,pass
+33,custom_binary_tree_paths,openai_gpt-5.6-terra,1,pass
+33,custom_binary_tree_paths,qwen_qwen3.7-max,1,pass
+33,custom_binary_tree_paths,qwen_qwen3.7-plus,1,pass
+33,custom_binary_tree_paths,xiaomi_mimo-v2.5-pro,1,pass
+33,custom_binary_tree_paths,z-ai_glm-5.2,1,pass
+34,custom_word_pattern,anthropic_claude-opus-4.8,1,pass
+34,custom_word_pattern,anthropic_claude-sonnet-5,1,pass
+34,custom_word_pattern,deepseek_deepseek-v4-flash,1,pass
+34,custom_word_pattern,deepseek_deepseek-v4-pro,1,pass
+34,custom_word_pattern,google_gemini-3.5-flash,1,pass
+34,custom_word_pattern,minimax_minimax-m3,1,pass
+34,custom_word_pattern,moonshotai_kimi-k2.6,1,pass
+34,custom_word_pattern,moonshotai_kimi-k3,1,pass
+34,custom_word_pattern,openai_gpt-5.6-luna,1,pass
+34,custom_word_pattern,openai_gpt-5.6-sol,1,pass
+34,custom_word_pattern,openai_gpt-5.6-terra,1,pass
+34,custom_word_pattern,qwen_qwen3.7-max,1,pass
+34,custom_word_pattern,qwen_qwen3.7-plus,1,pass
+34,custom_word_pattern,xiaomi_mimo-v2.5-pro,1,pass
+34,custom_word_pattern,z-ai_glm-5.2,1,pass
+35,custom_min_stack,anthropic_claude-opus-4.8,0,assertion/test failure
+35,custom_min_stack,anthropic_claude-sonnet-5,1,pass
+35,custom_min_stack,deepseek_deepseek-v4-flash,1,pass
+35,custom_min_stack,deepseek_deepseek-v4-pro,1,pass
+35,custom_min_stack,google_gemini-3.5-flash,1,pass
+35,custom_min_stack,minimax_minimax-m3,1,pass
+35,custom_min_stack,moonshotai_kimi-k2.6,1,pass
+35,custom_min_stack,moonshotai_kimi-k3,1,pass
+35,custom_min_stack,openai_gpt-5.6-luna,0,assertion/test failure
+35,custom_min_stack,openai_gpt-5.6-sol,1,pass
+35,custom_min_stack,openai_gpt-5.6-terra,1,pass
+35,custom_min_stack,qwen_qwen3.7-max,1,pass
+35,custom_min_stack,qwen_qwen3.7-plus,1,pass
+35,custom_min_stack,xiaomi_mimo-v2.5-pro,1,pass
+35,custom_min_stack,z-ai_glm-5.2,1,pass
+36,custom_lru_cache,anthropic_claude-opus-4.8,1,pass
+36,custom_lru_cache,anthropic_claude-sonnet-5,1,pass
+36,custom_lru_cache,deepseek_deepseek-v4-flash,1,pass
+36,custom_lru_cache,deepseek_deepseek-v4-pro,1,pass
+36,custom_lru_cache,google_gemini-3.5-flash,1,pass
+36,custom_lru_cache,minimax_minimax-m3,1,pass
+36,custom_lru_cache,moonshotai_kimi-k2.6,1,pass
+36,custom_lru_cache,moonshotai_kimi-k3,1,pass
+36,custom_lru_cache,openai_gpt-5.6-luna,1,pass
+36,custom_lru_cache,openai_gpt-5.6-sol,1,pass
+36,custom_lru_cache,openai_gpt-5.6-terra,1,pass
+36,custom_lru_cache,qwen_qwen3.7-max,1,pass
+36,custom_lru_cache,qwen_qwen3.7-plus,1,pass
+36,custom_lru_cache,xiaomi_mimo-v2.5-pro,1,pass
+36,custom_lru_cache,z-ai_glm-5.2,1,pass
+37,custom_validate_ip_address,anthropic_claude-opus-4.8,1,pass
+37,custom_validate_ip_address,anthropic_claude-sonnet-5,1,pass
+37,custom_validate_ip_address,deepseek_deepseek-v4-flash,1,pass
+37,custom_validate_ip_address,deepseek_deepseek-v4-pro,1,pass
+37,custom_validate_ip_address,google_gemini-3.5-flash,1,pass
+37,custom_validate_ip_address,minimax_minimax-m3,1,pass
+37,custom_validate_ip_address,moonshotai_kimi-k2.6,1,pass
+37,custom_validate_ip_address,moonshotai_kimi-k3,1,pass
+37,custom_validate_ip_address,openai_gpt-5.6-luna,1,pass
+37,custom_validate_ip_address,openai_gpt-5.6-sol,1,pass
+37,custom_validate_ip_address,openai_gpt-5.6-terra,1,pass
+37,custom_validate_ip_address,qwen_qwen3.7-max,1,pass
+37,custom_validate_ip_address,qwen_qwen3.7-plus,1,pass
+37,custom_validate_ip_address,xiaomi_mimo-v2.5-pro,1,pass
+37,custom_validate_ip_address,z-ai_glm-5.2,1,pass
+38,MyBench/dict_merge_max,anthropic_claude-opus-4.8,1,pass
+38,MyBench/dict_merge_max,anthropic_claude-sonnet-5,1,pass
+38,MyBench/dict_merge_max,deepseek_deepseek-v4-flash,1,pass
+38,MyBench/dict_merge_max,deepseek_deepseek-v4-pro,1,pass
+38,MyBench/dict_merge_max,google_gemini-3.5-flash,1,pass
+38,MyBench/dict_merge_max,minimax_minimax-m3,1,pass
+38,MyBench/dict_merge_max,moonshotai_kimi-k2.6,1,pass
+38,MyBench/dict_merge_max,moonshotai_kimi-k3,1,pass
+38,MyBench/dict_merge_max,openai_gpt-5.6-luna,1,pass
+38,MyBench/dict_merge_max,openai_gpt-5.6-sol,1,pass
+38,MyBench/dict_merge_max,openai_gpt-5.6-terra,1,pass
+38,MyBench/dict_merge_max,qwen_qwen3.7-max,1,pass
+38,MyBench/dict_merge_max,qwen_qwen3.7-plus,1,pass
+38,MyBench/dict_merge_max,xiaomi_mimo-v2.5-pro,1,pass
+38,MyBench/dict_merge_max,z-ai_glm-5.2,1,pass
+39,dict_invert_multival,anthropic_claude-opus-4.8,1,pass
+39,dict_invert_multival,anthropic_claude-sonnet-5,1,pass
+39,dict_invert_multival,deepseek_deepseek-v4-flash,1,pass
+39,dict_invert_multival,deepseek_deepseek-v4-pro,1,pass
+39,dict_invert_multival,google_gemini-3.5-flash,1,pass
+39,dict_invert_multival,minimax_minimax-m3,1,pass
+39,dict_invert_multival,moonshotai_kimi-k2.6,1,pass
+39,dict_invert_multival,moonshotai_kimi-k3,1,pass
+39,dict_invert_multival,openai_gpt-5.6-luna,1,pass
+39,dict_invert_multival,openai_gpt-5.6-sol,1,pass
+39,dict_invert_multival,openai_gpt-5.6-terra,1,pass
+39,dict_invert_multival,qwen_qwen3.7-max,1,pass
+39,dict_invert_multival,qwen_qwen3.7-plus,1,pass
+39,dict_invert_multival,xiaomi_mimo-v2.5-pro,1,pass
+39,dict_invert_multival,z-ai_glm-5.2,1,pass
+40,bitwise_parity,anthropic_claude-opus-4.8,1,pass
+40,bitwise_parity,anthropic_claude-sonnet-5,1,pass
+40,bitwise_parity,deepseek_deepseek-v4-flash,1,pass
+40,bitwise_parity,deepseek_deepseek-v4-pro,1,pass
+40,bitwise_parity,google_gemini-3.5-flash,1,pass
+40,bitwise_parity,minimax_minimax-m3,1,pass
+40,bitwise_parity,moonshotai_kimi-k2.6,1,pass
+40,bitwise_parity,moonshotai_kimi-k3,1,pass
+40,bitwise_parity,openai_gpt-5.6-luna,1,pass
+40,bitwise_parity,openai_gpt-5.6-sol,1,pass
+40,bitwise_parity,openai_gpt-5.6-terra,1,pass
+40,bitwise_parity,qwen_qwen3.7-max,1,pass
+40,bitwise_parity,qwen_qwen3.7-plus,1,pass
+40,bitwise_parity,xiaomi_mimo-v2.5-pro,1,pass
+40,bitwise_parity,z-ai_glm-5.2,1,pass
+41,bitwise_swap,anthropic_claude-opus-4.8,1,pass
+41,bitwise_swap,anthropic_claude-sonnet-5,1,pass
+41,bitwise_swap,deepseek_deepseek-v4-flash,1,pass
+41,bitwise_swap,deepseek_deepseek-v4-pro,1,pass
+41,bitwise_swap,google_gemini-3.5-flash,1,pass
+41,bitwise_swap,minimax_minimax-m3,1,pass
+41,bitwise_swap,moonshotai_kimi-k2.6,1,pass
+41,bitwise_swap,moonshotai_kimi-k3,1,pass
+41,bitwise_swap,openai_gpt-5.6-luna,1,pass
+41,bitwise_swap,openai_gpt-5.6-sol,1,pass
+41,bitwise_swap,openai_gpt-5.6-terra,1,pass
+41,bitwise_swap,qwen_qwen3.7-max,1,pass
+41,bitwise_swap,qwen_qwen3.7-plus,1,pass
+41,bitwise_swap,xiaomi_mimo-v2.5-pro,1,pass
+41,bitwise_swap,z-ai_glm-5.2,1,pass
+42,recursion_factorial,anthropic_claude-opus-4.8,1,pass
+42,recursion_factorial,anthropic_claude-sonnet-5,1,pass
+42,recursion_factorial,deepseek_deepseek-v4-flash,1,pass
+42,recursion_factorial,deepseek_deepseek-v4-pro,1,pass
+42,recursion_factorial,google_gemini-3.5-flash,1,pass
+42,recursion_factorial,minimax_minimax-m3,1,pass
+42,recursion_factorial,moonshotai_kimi-k2.6,1,pass
+42,recursion_factorial,moonshotai_kimi-k3,1,pass
+42,recursion_factorial,openai_gpt-5.6-luna,1,pass
+42,recursion_factorial,openai_gpt-5.6-sol,1,pass
+42,recursion_factorial,openai_gpt-5.6-terra,1,pass
+42,recursion_factorial,qwen_qwen3.7-max,1,pass
+42,recursion_factorial,qwen_qwen3.7-plus,1,pass
+42,recursion_factorial,xiaomi_mimo-v2.5-pro,1,pass
+42,recursion_factorial,z-ai_glm-5.2,1,pass
+43,graph_bfs_order,anthropic_claude-opus-4.8,1,pass
+43,graph_bfs_order,anthropic_claude-sonnet-5,1,pass
+43,graph_bfs_order,deepseek_deepseek-v4-flash,1,pass
+43,graph_bfs_order,deepseek_deepseek-v4-pro,1,pass
+43,graph_bfs_order,google_gemini-3.5-flash,1,pass
+43,graph_bfs_order,minimax_minimax-m3,1,pass
+43,graph_bfs_order,moonshotai_kimi-k2.6,1,pass
+43,graph_bfs_order,moonshotai_kimi-k3,1,pass
+43,graph_bfs_order,openai_gpt-5.6-luna,1,pass
+43,graph_bfs_order,openai_gpt-5.6-sol,1,pass
+43,graph_bfs_order,openai_gpt-5.6-terra,1,pass
+43,graph_bfs_order,qwen_qwen3.7-max,1,pass
+43,graph_bfs_order,qwen_qwen3.7-plus,1,pass
+43,graph_bfs_order,xiaomi_mimo-v2.5-pro,1,pass
+43,graph_bfs_order,z-ai_glm-5.2,1,pass
+44,parsing_csv_sum,anthropic_claude-opus-4.8,1,pass
+44,parsing_csv_sum,anthropic_claude-sonnet-5,1,pass
+44,parsing_csv_sum,deepseek_deepseek-v4-flash,1,pass
+44,parsing_csv_sum,deepseek_deepseek-v4-pro,1,pass
+44,parsing_csv_sum,google_gemini-3.5-flash,1,pass
+44,parsing_csv_sum,minimax_minimax-m3,1,pass
+44,parsing_csv_sum,moonshotai_kimi-k2.6,1,pass
+44,parsing_csv_sum,moonshotai_kimi-k3,1,pass
+44,parsing_csv_sum,openai_gpt-5.6-luna,1,pass
+44,parsing_csv_sum,openai_gpt-5.6-sol,1,pass
+44,parsing_csv_sum,openai_gpt-5.6-terra,1,pass
+44,parsing_csv_sum,qwen_qwen3.7-max,1,pass
+44,parsing_csv_sum,qwen_qwen3.7-plus,1,pass
+44,parsing_csv_sum,xiaomi_mimo-v2.5-pro,1,pass
+44,parsing_csv_sum,z-ai_glm-5.2,1,pass
+45,parsing_regex_digits,anthropic_claude-opus-4.8,1,pass
+45,parsing_regex_digits,anthropic_claude-sonnet-5,1,pass
+45,parsing_regex_digits,deepseek_deepseek-v4-flash,1,pass
+45,parsing_regex_digits,deepseek_deepseek-v4-pro,1,pass
+45,parsing_regex_digits,google_gemini-3.5-flash,1,pass
+45,parsing_regex_digits,minimax_minimax-m3,1,pass
+45,parsing_regex_digits,moonshotai_kimi-k2.6,1,pass
+45,parsing_regex_digits,moonshotai_kimi-k3,1,pass
+45,parsing_regex_digits,openai_gpt-5.6-luna,1,pass
+45,parsing_regex_digits,openai_gpt-5.6-sol,1,pass
+45,parsing_regex_digits,openai_gpt-5.6-terra,1,pass
+45,parsing_regex_digits,qwen_qwen3.7-max,1,pass
+45,parsing_regex_digits,qwen_qwen3.7-plus,1,pass
+45,parsing_regex_digits,xiaomi_mimo-v2.5-pro,1,pass
+45,parsing_regex_digits,z-ai_glm-5.2,1,pass
+46,algorithms_longest_increasing,anthropic_claude-opus-4.8,1,pass
+46,algorithms_longest_increasing,anthropic_claude-sonnet-5,1,pass
+46,algorithms_longest_increasing,deepseek_deepseek-v4-flash,1,pass
+46,algorithms_longest_increasing,deepseek_deepseek-v4-pro,1,pass
+46,algorithms_longest_increasing,google_gemini-3.5-flash,1,pass
+46,algorithms_longest_increasing,minimax_minimax-m3,1,pass
+46,algorithms_longest_increasing,moonshotai_kimi-k2.6,1,pass
+46,algorithms_longest_increasing,moonshotai_kimi-k3,1,pass
+46,algorithms_longest_increasing,openai_gpt-5.6-luna,1,pass
+46,algorithms_longest_increasing,openai_gpt-5.6-sol,1,pass
+46,algorithms_longest_increasing,openai_gpt-5.6-terra,1,pass
+46,algorithms_longest_increasing,qwen_qwen3.7-max,1,pass
+46,algorithms_longest_increasing,qwen_qwen3.7-plus,1,pass
+46,algorithms_longest_increasing,xiaomi_mimo-v2.5-pro,1,pass
+46,algorithms_longest_increasing,z-ai_glm-5.2,1,pass
+47,algorithms_knapsack01,anthropic_claude-opus-4.8,1,pass
+47,algorithms_knapsack01,anthropic_claude-sonnet-5,1,pass
+47,algorithms_knapsack01,deepseek_deepseek-v4-flash,1,pass
+47,algorithms_knapsack01,deepseek_deepseek-v4-pro,1,pass
+47,algorithms_knapsack01,google_gemini-3.5-flash,1,pass
+47,algorithms_knapsack01,minimax_minimax-m3,1,pass
+47,algorithms_knapsack01,moonshotai_kimi-k2.6,1,pass
+47,algorithms_knapsack01,moonshotai_kimi-k3,1,pass
+47,algorithms_knapsack01,openai_gpt-5.6-luna,1,pass
+47,algorithms_knapsack01,openai_gpt-5.6-sol,1,pass
+47,algorithms_knapsack01,openai_gpt-5.6-terra,1,pass
+47,algorithms_knapsack01,qwen_qwen3.7-max,1,pass
+47,algorithms_knapsack01,qwen_qwen3.7-plus,1,pass
+47,algorithms_knapsack01,xiaomi_mimo-v2.5-pro,1,pass
+47,algorithms_knapsack01,z-ai_glm-5.2,1,pass
+48,custom_parse_csv_numbers,anthropic_claude-opus-4.8,1,pass
+48,custom_parse_csv_numbers,anthropic_claude-sonnet-5,1,pass
+48,custom_parse_csv_numbers,deepseek_deepseek-v4-flash,1,pass
+48,custom_parse_csv_numbers,deepseek_deepseek-v4-pro,1,pass
+48,custom_parse_csv_numbers,google_gemini-3.5-flash,1,pass
+48,custom_parse_csv_numbers,minimax_minimax-m3,1,pass
+48,custom_parse_csv_numbers,moonshotai_kimi-k2.6,1,pass
+48,custom_parse_csv_numbers,moonshotai_kimi-k3,1,pass
+48,custom_parse_csv_numbers,openai_gpt-5.6-luna,1,pass
+48,custom_parse_csv_numbers,openai_gpt-5.6-sol,1,pass
+48,custom_parse_csv_numbers,openai_gpt-5.6-terra,1,pass
+48,custom_parse_csv_numbers,qwen_qwen3.7-max,1,pass
+48,custom_parse_csv_numbers,qwen_qwen3.7-plus,1,pass
+48,custom_parse_csv_numbers,xiaomi_mimo-v2.5-pro,1,pass
+48,custom_parse_csv_numbers,z-ai_glm-5.2,1,pass
+49,custom_normalize_json_keys,anthropic_claude-opus-4.8,1,pass
+49,custom_normalize_json_keys,anthropic_claude-sonnet-5,1,pass
+49,custom_normalize_json_keys,deepseek_deepseek-v4-flash,1,pass
+49,custom_normalize_json_keys,deepseek_deepseek-v4-pro,1,pass
+49,custom_normalize_json_keys,google_gemini-3.5-flash,1,pass
+49,custom_normalize_json_keys,minimax_minimax-m3,1,pass
+49,custom_normalize_json_keys,moonshotai_kimi-k2.6,1,pass
+49,custom_normalize_json_keys,moonshotai_kimi-k3,1,pass
+49,custom_normalize_json_keys,openai_gpt-5.6-luna,1,pass
+49,custom_normalize_json_keys,openai_gpt-5.6-sol,1,pass
+49,custom_normalize_json_keys,openai_gpt-5.6-terra,1,pass
+49,custom_normalize_json_keys,qwen_qwen3.7-max,1,pass
+49,custom_normalize_json_keys,qwen_qwen3.7-plus,1,pass
+49,custom_normalize_json_keys,xiaomi_mimo-v2.5-pro,1,pass
+49,custom_normalize_json_keys,z-ai_glm-5.2,1,pass
+50,custom_format_duration,anthropic_claude-opus-4.8,0,assertion/test failure
+50,custom_format_duration,anthropic_claude-sonnet-5,1,pass
+50,custom_format_duration,deepseek_deepseek-v4-flash,1,pass
+50,custom_format_duration,deepseek_deepseek-v4-pro,1,pass
+50,custom_format_duration,google_gemini-3.5-flash,0,assertion/test failure
+50,custom_format_duration,minimax_minimax-m3,0,assertion/test failure
+50,custom_format_duration,moonshotai_kimi-k2.6,0,assertion/test failure
+50,custom_format_duration,moonshotai_kimi-k3,1,pass
+50,custom_format_duration,openai_gpt-5.6-luna,1,pass
+50,custom_format_duration,openai_gpt-5.6-sol,0,assertion/test failure
+50,custom_format_duration,openai_gpt-5.6-terra,0,assertion/test failure
+50,custom_format_duration,qwen_qwen3.7-max,0,assertion/test failure
+50,custom_format_duration,qwen_qwen3.7-plus,0,assertion/test failure
+50,custom_format_duration,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+50,custom_format_duration,z-ai_glm-5.2,0,assertion/test failure
+51,custom_parse_key_value_config,anthropic_claude-opus-4.8,1,pass
+51,custom_parse_key_value_config,anthropic_claude-sonnet-5,1,pass
+51,custom_parse_key_value_config,deepseek_deepseek-v4-flash,1,pass
+51,custom_parse_key_value_config,deepseek_deepseek-v4-pro,1,pass
+51,custom_parse_key_value_config,google_gemini-3.5-flash,1,pass
+51,custom_parse_key_value_config,minimax_minimax-m3,1,pass
+51,custom_parse_key_value_config,moonshotai_kimi-k2.6,1,pass
+51,custom_parse_key_value_config,moonshotai_kimi-k3,1,pass
+51,custom_parse_key_value_config,openai_gpt-5.6-luna,1,pass
+51,custom_parse_key_value_config,openai_gpt-5.6-sol,1,pass
+51,custom_parse_key_value_config,openai_gpt-5.6-terra,1,pass
+51,custom_parse_key_value_config,qwen_qwen3.7-max,1,pass
+51,custom_parse_key_value_config,qwen_qwen3.7-plus,1,pass
+51,custom_parse_key_value_config,xiaomi_mimo-v2.5-pro,1,pass
+51,custom_parse_key_value_config,z-ai_glm-5.2,1,pass
+52,custom_pretty_print_matrix,anthropic_claude-opus-4.8,0,assertion/test failure
+52,custom_pretty_print_matrix,anthropic_claude-sonnet-5,0,assertion/test failure
+52,custom_pretty_print_matrix,deepseek_deepseek-v4-flash,0,assertion/test failure
+52,custom_pretty_print_matrix,deepseek_deepseek-v4-pro,1,pass
+52,custom_pretty_print_matrix,google_gemini-3.5-flash,0,assertion/test failure
+52,custom_pretty_print_matrix,minimax_minimax-m3,0,assertion/test failure
+52,custom_pretty_print_matrix,moonshotai_kimi-k2.6,0,assertion/test failure
+52,custom_pretty_print_matrix,moonshotai_kimi-k3,0,assertion/test failure
+52,custom_pretty_print_matrix,openai_gpt-5.6-luna,1,pass
+52,custom_pretty_print_matrix,openai_gpt-5.6-sol,0,assertion/test failure
+52,custom_pretty_print_matrix,openai_gpt-5.6-terra,0,assertion/test failure
+52,custom_pretty_print_matrix,qwen_qwen3.7-max,0,assertion/test failure
+52,custom_pretty_print_matrix,qwen_qwen3.7-plus,0,assertion/test failure
+52,custom_pretty_print_matrix,xiaomi_mimo-v2.5-pro,0,assertion/test failure
+52,custom_pretty_print_matrix,z-ai_glm-5.2,0,assertion/test failure
+53,custom_unique_permutations,anthropic_claude-opus-4.8,1,pass
+53,custom_unique_permutations,anthropic_claude-sonnet-5,0,assertion/test failure
+53,custom_unique_permutations,deepseek_deepseek-v4-flash,1,pass
+53,custom_unique_permutations,deepseek_deepseek-v4-pro,1,pass
+53,custom_unique_permutations,google_gemini-3.5-flash,1,pass
+53,custom_unique_permutations,minimax_minimax-m3,1,pass
+53,custom_unique_permutations,moonshotai_kimi-k2.6,1,pass
+53,custom_unique_permutations,moonshotai_kimi-k3,1,pass
+53,custom_unique_permutations,openai_gpt-5.6-luna,1,pass
+53,custom_unique_permutations,openai_gpt-5.6-sol,1,pass
+53,custom_unique_permutations,openai_gpt-5.6-terra,1,pass
+53,custom_unique_permutations,qwen_qwen3.7-max,1,pass
+53,custom_unique_permutations,qwen_qwen3.7-plus,1,pass
+53,custom_unique_permutations,xiaomi_mimo-v2.5-pro,1,pass
+53,custom_unique_permutations,z-ai_glm-5.2,1,pass
+54,custom_format_prime_factors,anthropic_claude-opus-4.8,1,pass
+54,custom_format_prime_factors,anthropic_claude-sonnet-5,1,pass
+54,custom_format_prime_factors,deepseek_deepseek-v4-flash,1,pass
+54,custom_format_prime_factors,deepseek_deepseek-v4-pro,1,pass
+54,custom_format_prime_factors,google_gemini-3.5-flash,1,pass
+54,custom_format_prime_factors,minimax_minimax-m3,1,pass
+54,custom_format_prime_factors,moonshotai_kimi-k2.6,1,pass
+54,custom_format_prime_factors,moonshotai_kimi-k3,1,pass
+54,custom_format_prime_factors,openai_gpt-5.6-luna,1,pass
+54,custom_format_prime_factors,openai_gpt-5.6-sol,1,pass
+54,custom_format_prime_factors,openai_gpt-5.6-terra,1,pass
+54,custom_format_prime_factors,qwen_qwen3.7-max,1,pass
+54,custom_format_prime_factors,qwen_qwen3.7-plus,1,pass
+54,custom_format_prime_factors,xiaomi_mimo-v2.5-pro,1,pass
+54,custom_format_prime_factors,z-ai_glm-5.2,1,pass
+55,custom_validate_expression,anthropic_claude-opus-4.8,1,pass
+55,custom_validate_expression,anthropic_claude-sonnet-5,1,pass
+55,custom_validate_expression,deepseek_deepseek-v4-flash,1,pass
+55,custom_validate_expression,deepseek_deepseek-v4-pro,1,pass
+55,custom_validate_expression,google_gemini-3.5-flash,1,pass
+55,custom_validate_expression,minimax_minimax-m3,1,pass
+55,custom_validate_expression,moonshotai_kimi-k2.6,1,pass
+55,custom_validate_expression,moonshotai_kimi-k3,1,pass
+55,custom_validate_expression,openai_gpt-5.6-luna,0,assertion/test failure
+55,custom_validate_expression,openai_gpt-5.6-sol,1,pass
+55,custom_validate_expression,openai_gpt-5.6-terra,1,pass
+55,custom_validate_expression,qwen_qwen3.7-max,1,pass
+55,custom_validate_expression,qwen_qwen3.7-plus,1,pass
+55,custom_validate_expression,xiaomi_mimo-v2.5-pro,1,pass
+55,custom_validate_expression,z-ai_glm-5.2,0,assertion/test failure
+56,custom_parse_roman,anthropic_claude-opus-4.8,1,pass
+56,custom_parse_roman,anthropic_claude-sonnet-5,1,pass
+56,custom_parse_roman,deepseek_deepseek-v4-flash,1,pass
+56,custom_parse_roman,deepseek_deepseek-v4-pro,1,pass
+56,custom_parse_roman,google_gemini-3.5-flash,1,pass
+56,custom_parse_roman,minimax_minimax-m3,1,pass
+56,custom_parse_roman,moonshotai_kimi-k2.6,1,pass
+56,custom_parse_roman,moonshotai_kimi-k3,1,pass
+56,custom_parse_roman,openai_gpt-5.6-luna,1,pass
+56,custom_parse_roman,openai_gpt-5.6-sol,1,pass
+56,custom_parse_roman,openai_gpt-5.6-terra,1,pass
+56,custom_parse_roman,qwen_qwen3.7-max,1,pass
+56,custom_parse_roman,qwen_qwen3.7-plus,1,pass
+56,custom_parse_roman,xiaomi_mimo-v2.5-pro,1,pass
+56,custom_parse_roman,z-ai_glm-5.2,1,pass

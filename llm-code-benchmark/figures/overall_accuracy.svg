@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650">
+<style>text{font:14px sans-serif}.bar{fill:#315a7d}</style>
+<text x="30" y="30" font-size="20">ExtendedEval accuracy</text>
+<text x="10" y="70">moonshotai/kimi-k3</text>
+<rect class="bar" x="250" y="55" width="643.09" height="20"/>
+<text x="901.09" y="70">91.87%</text>
+<text x="10" y="102">anthropic/claude-opus-4.8</text>
+<rect class="bar" x="250" y="87" width="637.40" height="20"/>
+<text x="895.40" y="102">91.06%</text>
+<text x="10" y="134">openai/gpt-5.6-terra</text>
+<rect class="bar" x="250" y="119" width="620.33" height="20"/>
+<text x="878.33" y="134">88.62%</text>
+<text x="10" y="166">openai/gpt-5.6-luna</text>
+<rect class="bar" x="250" y="151" width="617.48" height="20"/>
+<text x="875.48" y="166">88.21%</text>
+<text x="10" y="198">moonshotai/kimi-k2.6</text>
+<rect class="bar" x="250" y="183" width="617.48" height="20"/>
+<text x="875.48" y="198">88.21%</text>
+<text x="10" y="230">google/gemini-3.5-flash</text>
+<rect class="bar" x="250" y="215" width="614.63" height="20"/>
+<text x="872.63" y="230">87.80%</text>
+<text x="10" y="262">qwen/qwen3.7-max</text>
+<rect class="bar" x="250" y="247" width="614.63" height="20"/>
+<text x="872.63" y="262">87.80%</text>
+<text x="10" y="294">anthropic/claude-sonnet-5</text>
+<rect class="bar" x="250" y="279" width="611.79" height="20"/>
+<text x="869.79" y="294">87.40%</text>
+<text x="10" y="326">z-ai/glm-5.2</text>
+<rect class="bar" x="250" y="311" width="608.94" height="20"/>
+<text x="866.94" y="326">86.99%</text>
+<text x="10" y="358">openai/gpt-5.6-sol</text>
+<rect class="bar" x="250" y="343" width="608.94" height="20"/>
+<text x="866.94" y="358">86.99%</text>
+<text x="10" y="390">qwen/qwen3.7-plus</text>
+<rect class="bar" x="250" y="375" width="608.94" height="20"/>
+<text x="866.94" y="390">86.99%</text>
+<text x="10" y="422">deepseek/deepseek-v4-pro</text>
+<rect class="bar" x="250" y="407" width="597.56" height="20"/>
+<text x="855.56" y="422">85.37%</text>
+<text x="10" y="454">minimax/minimax-m3</text>
+<rect class="bar" x="250" y="439" width="597.56" height="20"/>
+<text x="855.56" y="454">85.37%</text>
+<text x="10" y="486">xiaomi/mimo-v2.5-pro</text>
+<rect class="bar" x="250" y="471" width="591.87" height="20"/>
+<text x="849.87" y="486">84.55%</text>
+<text x="10" y="518">deepseek/deepseek-v4-flash</text>
+<rect class="bar" x="250" y="503" width="583.33" height="20"/>
+<text x="841.33" y="518">83.33%</text>
+</svg>

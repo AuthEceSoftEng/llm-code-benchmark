@@ -1,0 +1,14 @@
+{
+  "dataset": "datasets/AppliedEval.jsonl",
+  "records": 57,
+  "unique_task_ids": 57,
+  "duplicate_task_ids": [],
+  "missing_categories": 0,
+  "missing_difficulty": 57,
+  "test_count_min": 2,
+  "test_count_max": 10,
+  "test_count_mean": 5.421052631578948,
+  "structural_issues": [],
+  "canonical_failures": [],
+  "status": "PASS"
+}

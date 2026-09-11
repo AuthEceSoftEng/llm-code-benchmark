@@ -1,0 +1,15 @@
+{
+  "ExtendedEval": {
+    "records": 246,
+    "canonical_pass": 246,
+    "issues": 0,
+    "status": "PASS"
+  },
+  "AppliedEval": {
+    "records": 57,
+    "canonical_pass": true,
+    "canonical_failures": 0,
+    "structural_issues": 0,
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "release_name": "AuthEceSoftEng/llm-code-benchmark v1.0.0-pre-release",
+  "release_date": "2026-07-23",
+  "status": "local-unreleased",
+  "authority": {
+    "ExtendedEval": "results/extendedeval",
+    "AppliedEval": "results/appliedeval",
+    "HumanEval": "results/humaneval/task_outcomes.jsonl"
+  },
+  "datasets": {
+    "HumanEval": {
+      "records": 164,
+      "unique_task_ids": 164,
+      "path": "datasets/HumanEval.jsonl"
+    },
+    "ExtendedEval": {
+      "records": 246,
+      "unique_task_ids": 246,
+      "path": "datasets/ExtendedEval.jsonl"
+    },
+    "AppliedEval": {
+      "records": 57,
+      "unique_task_ids": 57,
+      "path": "datasets/AppliedEval.jsonl"
+    }
+  },
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "anthropic/claude-opus-4.8",
+    "deepseek/deepseek-v4-flash",
+    "deepseek/deepseek-v4-pro",
+    "google/gemini-3.5-flash",
+    "z-ai/glm-5.2",
+    "openai/gpt-5.6-luna",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "moonshotai/kimi-k2.6",
+    "moonshotai/kimi-k3",
+    "xiaomi/mimo-v2.5-pro",
+    "minimax/minimax-m3",
+    "qwen/qwen3.7-max",
+    "qwen/qwen3.7-plus"
+  ],
+  "provenance": {
+    "human_tasks": 164,
+    "verified_pairs": 147,
+    "explicit_absences": 17,
+    "paired_rows": 2205,
+    "mapping_path": "provenance/humaneval_extendedeval_mapping.csv"
+  },
+  "published_extendedeval_totals": {
+    "anthropic/claude-sonnet-5": 215,
+    "anthropic/claude-opus-4.8": 224,
+    "deepseek/deepseek-v4-flash": 205,
+    "deepseek/deepseek-v4-pro": 210,
+    "google/gemini-3.5-flash": 216,
+    "z-ai/glm-5.2": 214,
+    "openai/gpt-5.6-luna": 217,
+    "openai/gpt-5.6-sol": 214,
+    "openai/gpt-5.6-terra": 218,
+    "moonshotai/kimi-k2.6": 217,
+    "moonshotai/kimi-k3": 226,
+    "xiaomi/mimo-v2.5-pro": 208,
+    "minimax/minimax-m3": 210,
+    "qwen/qwen3.7-max": 216,
+    "qwen/qwen3.7-plus": 214
+  },
+  "analysis_parameters": {
+    "mcnemar": "exact two-sided",
+    "holm_contrasts": 105,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 7,
+    "wilson_interval": "95%",
+    "kendall": "tau-b with tie handling"
+  },
+  "validation": {
+    "excluded_humaneval_correct": 248,
+    "excluded_humaneval_trials": 255,
+    "retained_humaneval_correct": 2119,
+    "retained_humaneval_trials": 2205,
+    "paired_spearman": 0.2109,
+    "paired_kendall_tau_b": 0.1641,
+    "saturation_ranges_percentage_points": {
+      "retained_humaneval": 6.12,
+      "paired_extendedeval": 10.2
+    },
+    "saturation_universal_passes": {
+      "retained_humaneval": 118,
+      "paired_extendedeval": 79
+    },
+    "saturation_partial_tasks": {
+      "retained_humaneval": 28,
+      "paired_extendedeval": 63
+    },
+    "saturation_holm_significant_contrasts": {
+      "retained_humaneval": 0,
+      "paired_extendedeval": 0
+    }
+  },
+  "provenance_hashes": {
+    "datasets/HumanEval.jsonl": "1d49078ba3e2b196b9344535bef34a43021f038fad9561d6ee7c53450609a6a2",
+    "datasets/ExtendedEval.jsonl": "a27b78093e7ef17303c0182cd2803cc6f2b335895f40170504844a7800c6cd64",
+    "datasets/AppliedEval.jsonl": "7333832d2dd10898146d1f1e40ca6c074cbbfa0507a6e37d2ed6bca3f07d819b",
+    "provenance/humaneval_extendedeval_mapping.csv": "a80ce406dcfa505b98ddb5e31eabe129ec9f37058710f345251e3748a6fec111"
+  },
+  "deviations": [
+    "No commit, tag, GitHub Release, or DOI has been created, per the handoff instruction.",
+    "No original manuscript PDF/PNG figure files were present in the source workspace; the package includes a newly generated archival accuracy figure from packaged source CSV data.",
+    "AppliedEval release JSONL files do not carry model fields; model identity is derived from their exact filename mapping.",
+    "No authoritative design-operation coding artifact was present in the supplied materials; no operation labels were invented.",
+    "The 17 absent HumanEval rows have no contemporaneous exclusion reason in the supplied provenance; this is stated explicitly in release_exclusion_reason."
+  ],
+  "result_file_hashes": {
+    "results/extendedeval/evaluation_claude_opus_4_8_minimal.jsonl": "875a0f0b6024abfbb7e295fbd39d9ed4403853275e9295e69dfebb52004ad200",
+    "results/extendedeval/evaluation_claude_sonnet_5.jsonl": "fbd96620b26b350eafdc061f3c299e2bd4c1cb07f138d8acb8f53ffc6aa2468e",
+    "results/extendedeval/evaluation_deepseek_flash.jsonl": "85aea90ec10ac9773ebc357f932ad126895ad9837bd7bb6f123c634d58c2dfa2",
+    "results/extendedeval/evaluation_deepseek_v4_pro.jsonl": "fea6baee42e50194f84fb857639f8b76b06c1a19ab68ef57d28eb4d04da02c8c",
+    "results/extendedeval/evaluation_gemini_3_5_flash.jsonl": "9bcc827ac162fc14c36c79b39b8d7bf718e0b5b6a16a1745a0c615c298639c9a",
+    "results/extendedeval/evaluation_glm_5_2.jsonl": "30d2bed056090a829ac48d8f2b34cb1dbf2151e7d166978bc27cd3282a0461cf",
+    "results/extendedeval/evaluation_gpt_5_6_luna.jsonl": "3f59b8f001d5dcbcffb3044e2d5f2feb4a2614d4c030bb90b2aa3be211f44b2a",
+    "results/extendedeval/evaluation_gpt_5_6_sol.jsonl": "c3d838c187005f4a8f9ef4db944c3f722d8ee7ce501fc38b47c2b0ebd5e04e8f",
+    "results/extendedeval/evaluation_gpt_5_6_terra.jsonl": "4d30adb0b8bc4b9b2360bf83d6f9e56e60c05a6787771bc925c8511454cefb52",
+    "results/extendedeval/evaluation_kimi_k2_6.jsonl": "63d40e630b38fad2341cdcda1052a5f4482e9e413b54e8bcc8d03b730078205e",
+    "results/extendedeval/evaluation_kimi_k3_minimal.jsonl": "497cc9a1946ec1e915cde41add5c0c2baa382d823c1c5c74ffe04d664eae31fa",
+    "results/extendedeval/evaluation_mimo_v2_5_pro.jsonl": "3dcb14a13d4d6e00ebe69673c90fbab2cc1f0ebdcd8a946710b86217167fb42f",
+    "results/extendedeval/evaluation_minimax_m3.jsonl": "0dacfd6d57349bb27c97c9055a0ea3d3366b2ac3e2751436e8e42f57ae98c979",
+    "results/extendedeval/evaluation_qwen3_7_max.jsonl": "5e3782a49ddcd62c7e0af7f978a1061dfded761c292120b33e19937bffa0e844",
+    "results/extendedeval/evaluation_qwen3_7_plus.jsonl": "58ad163e0ada3f2d958c0c22083f8520518733b671ed08da29bccaa50dc67ac6",
+    "results/appliedeval/evaluation_anthropic_claude-opus-4.8.jsonl": "a47163493885d71b609e7a08deb7b637e4946e16b82f3551bf2d8e9fa33e1978",
+    "results/appliedeval/evaluation_anthropic_claude-sonnet-5.jsonl": "1102ad6ff8ec831b5f525cfca91e4bbbbc027c970775b3edf8fd7b8f74757688",
+    "results/appliedeval/evaluation_deepseek_deepseek-v4-flash.jsonl": "cc492311c99fb716a644fe21f40ef3abcaabf82588149babef004fd2f34b2740",
+    "results/appliedeval/evaluation_deepseek_deepseek-v4-pro.jsonl": "f30192a74ce7f268b7d70787d4eb10f72742ea9038bf4f0ebcdad95ee03723d0",
+    "results/appliedeval/evaluation_google_gemini-3.5-flash.jsonl": "6c5a158ddafb31b432532ac58a11d8929d093673df057b40dbf4fd20f7b3fdd4",
+    "results/appliedeval/evaluation_minimax_minimax-m3.jsonl": "b5ee8ad6d07f7c31ac3e33082a7fa2098c8ffd9a016e7ffd664692466d8cbdc3",
+    "results/appliedeval/evaluation_moonshotai_kimi-k2.6.jsonl": "024c72e487137a0bccc914708069b97bba91105e59722c4153c3bfbeac6ca10a",
+    "results/appliedeval/evaluation_moonshotai_kimi-k3.jsonl": "18401ea8a306d0f70bae2270c05ad516c1e0d636ee015e6f54da549123985862",
+    "results/appliedeval/evaluation_openai_gpt-5.6-luna.jsonl": "de201c5ac8baf119e2619a0868e5a49af54f382655f6ef4acdfe51f4e9fa5907",
+    "results/appliedeval/evaluation_openai_gpt-5.6-sol.jsonl": "062d8ee0bfc349c73f3c5c497f3fb276a437f46dd0cf6344e164d0594a3c6cd5",
+    "results/appliedeval/evaluation_openai_gpt-5.6-terra.jsonl": "013beedc45ea86f114ffd304e4849fbd869d634e07f7d05737786e5fb7f7eb06",
+    "results/appliedeval/evaluation_qwen_qwen3.7-max.jsonl": "26a6cf68d3dca0725284a0aa62e51665580d37058336406c0e2b765a7e4cf026",
+    "results/appliedeval/evaluation_qwen_qwen3.7-plus.jsonl": "abb9bdd72eb2fb0bdeb8c85134f5e0cf418dd708f04e7357ef91d824ee81dd21",
+    "results/appliedeval/evaluation_xiaomi_mimo-v2.5-pro.jsonl": "402b971412919700ce585e7c3750a10efae81c3c4e04e6bba231041eb1bc81e2",
+    "results/appliedeval/evaluation_z-ai_glm-5.2.jsonl": "bdc4d802ecb440ca3ca7ed6f8bb03a0242f4f03bdc73075446321e9c1beea115",
+    "results/humaneval/task_outcomes.jsonl": "cc5f78f0ea507b53281086a0f4c13b27d35068fd0568ee087cfd49eaf7fb9fc7",
+    "results/paired/paired_task_outcomes.csv": "5e36c131abd2f1932302ac2d5bf3fafc374579921cd70097e48d4478d61c1aad",
+    "results/paired/humaneval_extendedeval_paired_results.csv": "8bac1c99b867ca05d14c09f4879d01bd2b04a629c9f2f4b4f9b5bb647eff4306"
+  },
+  "figure_file_hashes": {
+    "figures/README.md": "1161f6695b8d19480760b829d9df1d40ce7db102c1c6c9179ad787376e553f09",
+    "figures/overall_accuracy.pdf": "ce63cbec8b1531e4c5cc62c1adac19b365bf3dd5027028b3464fd688e501c6c0",
+    "figures/overall_accuracy.png": "189163cd8cf73b2111182c3b149e9b51a02cc9b8569d2ca82016be5fae9e6205",
+    "figures/overall_accuracy.svg": "af45dec3251fc8cfc4ae589960cd82f061cc5f656453d1832da665f5ebeb9e2d"
+  }
+}
