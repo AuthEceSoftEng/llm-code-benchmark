@@ -1,0 +1,28 @@
+{
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "anthropic/claude-opus-4.8",
+    "deepseek/deepseek-v4-flash",
+    "deepseek/deepseek-v4-pro",
+    "google/gemini-3.5-flash",
+    "z-ai/glm-5.2",
+    "openai/gpt-5.6-luna",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "moonshotai/kimi-k2.6",
+    "moonshotai/kimi-k3",
+    "xiaomi/mimo-v2.5-pro",
+    "minimax/minimax-m3",
+    "qwen/qwen3.7-max",
+    "qwen/qwen3.7-plus"
+  ],
+  "generation_defaults": {
+    "temperature": 0,
+    "top_p": 1,
+    "max_tokens": 16384,
+    "retries": 2,
+    "timeout_seconds": 300,
+    "reasoning": "none_when_supported"
+  },
+  "reasoning_note": "The runner requests reasoning effort none and excludes reasoning when the endpoint supports it. It fails visibly when the provider rejects that configuration; use --reasoning minimal only as an explicit protocol deviation."
+}

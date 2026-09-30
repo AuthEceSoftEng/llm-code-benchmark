@@ -27,6 +27,10 @@ The command fails loudly on record-count, hash, model, mapping, aggregate, paire
 
 No API key is required. The reproduction command never calls a model provider.
 
+To generate new model completions, see `REPRODUCE_EXPERIMENTS.md` and run
+`scripts/run_experiments.py`. This requires a user-owned OpenRouter API key.
+New reruns must be stored separately from the authoritative `results/` files.
+
 ## Release status
 
 This is an unreleased local archival package. No Git commit, tag, GitHub Release, URL, or DOI has been created. After independent review, publish the repository and record its release URL/DOI in this file and in the manuscript data-availability statement.
